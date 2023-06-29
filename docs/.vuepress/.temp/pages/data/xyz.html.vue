@@ -1,0 +1,50 @@
+<template><div><h3>瓦片底图：TIF影像金字塔切片处理及加载</h3>
+<h2 id="_1-tif-格式介绍" tabindex="-1"><a class="header-anchor" href="#_1-tif-格式介绍" aria-hidden="true">#</a> 1. tif 格式介绍</h2>
+<p>TIF 文件为栅格图像文件，后缀为 tif 或 tiff，是 ogc 规范的一种，全称 GeoTiff。通常不能在资源管理器中查看 tif 栅格影像数据的坐标系信息，需要用 GIS 软件查看，因为它的坐标系信息写在数据文件内部。<br /></p>
+<p>tif 可以有 8 位，24 位等深度，一般真彩色是 24 位，而地形数据只有一个高度值，采用 8 位。目前很多卫星影像数据、地形数据的存储格式都是 tif。<br />
+<img src="@source/public/image/data-tif-img.jpg" alt="配置图"></p>
+<h2 id="_2-处理工具" tabindex="-1"><a class="header-anchor" href="#_2-处理工具" aria-hidden="true">#</a> 2. 处理工具</h2>
+<p>当前有很多软件都可以做切片处理，比如 ArcGIS 、GeoServer、Global Mapper、gdal2tiles（命令行）等，根据个人习惯选择 1 个工具处理即可。</p>
+<h3 id="_2-1-global-mapper-工具" tabindex="-1"><a class="header-anchor" href="#_2-1-global-mapper-工具" aria-hidden="true">#</a> 2.1 Global Mapper 工具</h3>
+<p>GlobalMapper 是一款功能强大的小型化 GIS 栅格影像、矢量数据处理、加工软件，其本身具备了 GIS 软件产品的几乎所有特性，做到了将复杂的问题简单化，哪怕你是对 GIS 一无所知的用户都可以很快的上手，简单直观的功能设计都能够帮助你以最快的速度完成所需要的工作，完成加工数据成品的任务。如在需要做影像数据镶嵌、智能栅格影像切割、专题图绘制、矢量信息绘制，标注、正射影像生成、GPS 定位、坐标转换、投影转换、卫星地图纠正、地形（DEM）高程数据处理、行业主流文件格式的相互转换（如 kml 格式转换、SHP 格式转换、IMG 格式转换、PIX 格式转换、TIFF 格式转换等…）的时候 GlobalMapper 较同行业软件的操作优势就立刻显现出来。同时软件本身提供了丰富的 WMS 数据源包括了：雷达孔径地图（TOPO）、DEM 数据地图、DigitalGlobe 水印卫星地图、STRM、USGS 数据等等，在已有的 WMS 的基础上用户也可以自行创建或添加 WMS 数据库，动静结合的数据处理、展现方式不能不说是一种创新，且可以为用户节约下不小数据寻找、采购的成本。<br />
+<a href="http://www.rivermap.cn/down.html" target="_blank" rel="noopener noreferrer">下载地址<ExternalLinkIcon/></a></p>
+<h3 id="_2-2-cesiumlab-工具-影像切片-模块" tabindex="-1"><a class="header-anchor" href="#_2-2-cesiumlab-工具-影像切片-模块" aria-hidden="true">#</a> 2.2 Cesiumlab 工具“影像切片”模块</h3>
+<p>来源：北京西部世界公司</p>
+<p>说明：从官网下载工具后，按工具说明注册帐号登录后即可使用，是图形化界面操作，操作比较简便。<br/>
+<a href="http://www.cesiumlab.com/" target="_blank" rel="noopener noreferrer">官方下载地址<ExternalLinkIcon/></a>.<a href="http://www.cesiumlab.com/doc/CesiumLab/index.html#/dataprocess/image.md" target="_blank" rel="noopener noreferrer">官方操作说明<ExternalLinkIcon/></a></p>
+<h2 id="_3-常见问题" tabindex="-1"><a class="header-anchor" href="#_3-常见问题" aria-hidden="true">#</a> 3. 常见问题</h2>
+<p>tif 去黑边或白边
+可以安装<a href="https://www.esri.com/en-us/arcgis/products/arcgis-desktop/overview" target="_blank" rel="noopener noreferrer">ArcGIS forDesktop<ExternalLinkIcon/></a>软件，参考文章<a href="https://blog.csdn.net/kikitamoon/article/details/50625033" target="_blank" rel="noopener noreferrer">为影像数据去除无效值<ExternalLinkIcon/></a>进行数据的处理。</p>
+<h2 id="_4-处理操作流程完整示例" tabindex="-1"><a class="header-anchor" href="#_4-处理操作流程完整示例" aria-hidden="true">#</a> 4. 处理操作流程完整示例</h2>
+<h3 id="_4-1-准备好-tif-格式文件" tabindex="-1"><a class="header-anchor" href="#_4-1-准备好-tif-格式文件" aria-hidden="true">#</a> 4.1 准备好 tif 格式文件</h3>
+<p>注：如果 tif 不带坐标系和坐标信息，需要事先知道坐标，在软件导入时会提示进行设置。</p>
+<h3 id="_4-2-tif-进行切片" tabindex="-1"><a class="header-anchor" href="#_4-2-tif-进行切片" aria-hidden="true">#</a> 4.2 tif 进行切片</h3>
+<p>下面我们已 Global Mapper 工具处理为例。<br /> 1.打开软件，导入该 tif 文件。
+<img src="@source/public/image/data-xyz-gm1.jpg" alt="配置图"> 2.如果 tif 不带坐标系和坐标信息，此时为提示，按提示操作，导入成功后效果
+<img src="@source/public/image/data-xyz-gm2.jpg" alt="配置图"> 3.加载成功后，在文件菜单，选择导出“Web 格式”
+<img src="@source/public/image/data-xyz-gm3.jpg" alt="配置图"> 4.导出弹窗中按默认选择的谷歌地图瓦片规则就行
+<img src="@source/public/image/data-xyz-gm4.jpg" alt="配置图"> <br /> 5.单击确定后，弹窗设置相关导出参数，这里我们设置图块命名规则为常用标准的： <code v-pre>%z\%x\%y.png</code> <br />
+说明：也可以设置其他规则，在后续 leaflet 客户端加载时中也按此规则加载就行。
+<img src="@source/public/image/data-xyz-gm5.jpg" alt="配置图"> <br /> 6.单击确定后，设置导出的瓦片存放目录，html 命名可以随便
+<img src="@source/public/image/data-xyz-gm6.jpg" alt="配置图"> <br />7.等待导出完成。导出完成后目录如下：
+<img src="@source/public/image/data-xyz-gm7.jpg" alt="配置图"></p>
+<h3 id="_3-2-发布二维数据为-http-服务" tabindex="-1"><a class="header-anchor" href="#_3-2-发布二维数据为-http-服务" aria-hidden="true">#</a> 3.2 发布二维数据为 HTTP 服务</h3>
+<p>因为地图瓦片数据一般都很大，建议将瓦片目录发布为 http 服务可以访问的一个站点，操作方式参考 nginx、IIS、Tomcat 等 Http 服务器操作说明， 可以参考教程<a href="">发布地图数据服务</a></p>
+<ul>
+<li>
+<p>可以将导出目录 exp 进行发布为服务：<code v-pre>http://localhost:8888/mapdata/exp/</code></p>
+</li>
+<li>
+<p>发布为服务后，首先验证下随意找一张图片，可以在浏览器可以直接访问，正常加载， 如 <code v-pre>http://localhost:8888/mapdata/exp/8/210/102.png</code></p>
+</li>
+</ul>
+<p><img src="@source/public/image/data-xyz-gm8.jpg" alt="配置图"></p>
+<h3 id="_3-3-在平台中加载模型" tabindex="-1"><a class="header-anchor" href="#_3-3-在平台中加载模型" aria-hidden="true">#</a> 3.3 在平台中加载模型</h3>
+<p>1.按照测试的图片地址将数字部分改为 xyz 值，如下所示，<br />
+<code v-pre>http://localhost:8888/mapdata/exp/8/210/102.png</code><br />
+<code v-pre>http://localhost:8888/mapdata/exp/{z}/{x}/{y}.png</code> 【按导出时的规则<code v-pre>%z\%x\%y.png</code>】</p>
+<p>2.在 Mars2D 框架中打开<a href="http://mars2d.cn/editor.html?id=layer-tile/type/xyz" target="_blank" rel="noopener noreferrer">XYZ 瓦片示例页面<ExternalLinkIcon/></a>，在这个页面的根据已有示例修改 url 地址 <code v-pre>http://localhost:8888/mapdata/exp/{z}/{x}/{y}.png</code>，来调试图层参数。<br />
+可以参考教程<a href="http://mars2d.cn/doc.html#data/guide/map/tileLayer" target="_blank" rel="noopener noreferrer">加载 XYZ 数据步骤<ExternalLinkIcon/></a></p>
+</div></template>
+
+

@@ -1,0 +1,14 @@
+export const data = JSON.parse("{\"key\":\"v-38ed0af0\",\"path\":\"/paycenter/codedesc.html\",\"title\":\"源代码说明\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"October.PayCenter\",\"slug\":\"october-paycenter\",\"link\":\"#october-paycenter\",\"children\":[{\"level\":3,\"title\":\"Main\",\"slug\":\"main\",\"link\":\"#main\",\"children\":[]},{\"level\":3,\"title\":\"PayCallback\",\"slug\":\"paycallback\",\"link\":\"#paycallback\",\"children\":[]},{\"level\":3,\"title\":\"RefundCallback\",\"slug\":\"refundcallback\",\"link\":\"#refundcallback\",\"children\":[]},{\"level\":3,\"title\":\"Service文件夹\",\"slug\":\"service文件夹\",\"link\":\"#service文件夹\",\"children\":[]}]},{\"level\":2,\"title\":\"October.PayCenter.Common\",\"slug\":\"october-paycenter-common\",\"link\":\"#october-paycenter-common\",\"children\":[{\"level\":3,\"title\":\"CommonHelp\",\"slug\":\"commonhelp\",\"link\":\"#commonhelp\",\"children\":[]},{\"level\":3,\"title\":\"RSAHelp\",\"slug\":\"rsahelp\",\"link\":\"#rsahelp\",\"children\":[]},{\"level\":3,\"title\":\"SnowFlake\",\"slug\":\"snowflake\",\"link\":\"#snowflake\",\"children\":[]},{\"level\":3,\"title\":\"SystemEnum\",\"slug\":\"systemenum\",\"link\":\"#systemenum\",\"children\":[]}]},{\"level\":2,\"title\":\"October.PayCenter.Repository\",\"slug\":\"october-paycenter-repository\",\"link\":\"#october-paycenter-repository\",\"children\":[{\"level\":3,\"title\":\"DBModel\",\"slug\":\"dbmodel\",\"link\":\"#dbmodel\",\"children\":[]},{\"level\":3,\"title\":\"Repository\",\"slug\":\"repository\",\"link\":\"#repository\",\"children\":[]},{\"level\":3,\"title\":\"DBInit\",\"slug\":\"dbinit\",\"link\":\"#dbinit\",\"children\":[]},{\"level\":3,\"title\":\"Repository\",\"slug\":\"repository-1\",\"link\":\"#repository-1\",\"children\":[]},{\"level\":3,\"title\":\"SqlSugarHelper\",\"slug\":\"sqlsugarhelper\",\"link\":\"#sqlsugarhelper\",\"children\":[]}]},{\"level\":2,\"title\":\"October.PayCenter.Service\",\"slug\":\"october-paycenter-service\",\"link\":\"#october-paycenter-service\",\"children\":[{\"level\":3,\"title\":\"Service文件夹\",\"slug\":\"service文件夹-1\",\"link\":\"#service文件夹-1\",\"children\":[]},{\"level\":3,\"title\":\"WeChatPay\",\"slug\":\"wechatpay\",\"link\":\"#wechatpay\",\"children\":[]}]},{\"level\":2,\"title\":\"October.PayCenter.TestApi\",\"slug\":\"october-paycenter-testapi\",\"link\":\"#october-paycenter-testapi\",\"children\":[]},{\"level\":2,\"title\":\"October.PayCenter.WebApi\",\"slug\":\"october-paycenter-webapi\",\"link\":\"#october-paycenter-webapi\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"paycenter/codedesc.md\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
