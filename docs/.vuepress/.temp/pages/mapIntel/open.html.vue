@@ -1,6 +1,18 @@
 <template><div><h3> 开源仓库清单 </h3>
-<p><img src="@source/public/image/logo.png" alt="配置图"> <br />
-Mars2D 所有资料和代码都均是免费开源的公开发布方式，下面是 Mars2D 平台所有开源仓库的清单：</p>
+<p><img src="@source/public/image/logo.png" alt="配置图"> <br /></p>
+<p align="center">🌎 一款免费的二维地图客户端开发平台</p>
+<p align="center">
+<a target="_black" href="https://github.com/marsgis/mars2d">
+<img alt="GitHub stars" src="https://img.shields.io/github/stars/marsgis/mars2d?style=flat&logo=github">
+</a>&nbsp;
+<a target="_black" href="https://www.npmjs.com/package/mars2d">
+<img alt="Npm downloads" src="https://img.shields.io/npm/dt/mars2d?style=flat&logo=npm">
+</a>&nbsp;
+<a target="_black" href="https://www.npmjs.com/package/mars2d">
+<img alt="Npm version" src="https://img.shields.io/npm/v/mars2d.svg?style=flat&logo=npm&label=version"/>
+</a>
+</p>
+<p>Mars2D 所有资料和代码都均是免费开源的公开发布方式，下面是 Mars2D 平台所有开源仓库的清单：</p>
 <h2 id="导航" tabindex="-1"><a class="header-anchor" href="#导航" aria-hidden="true">#</a> 导航</h2>
 <p>包含 SDK 更新日志、和其他仓库导航。<br /></p>
 <p>Github：<a href="https://github.com/marsgis/mars2d" target="_blank" rel="noopener noreferrer">https://github.com/marsgis/mars2d<ExternalLinkIcon/></a><br />

@@ -320,130 +320,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "加载外部资源的跨域问题",
-    "headers": [
-      {
-        "level": 2,
-        "title": "问题的现象",
-        "slug": "问题的现象",
-        "link": "#问题的现象",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "解决方法及步骤",
-        "slug": "解决方法及步骤",
-        "link": "#解决方法及步骤",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "附：什么是资源跨域权限",
-        "slug": "附-什么是资源跨域权限",
-        "link": "#附-什么是资源跨域权限",
-        "children": [
-          {
-            "level": 3,
-            "title": "什么是 Access-Control-Allow-Origin",
-            "slug": "什么是-access-control-allow-origin",
-            "link": "#什么是-access-control-allow-origin",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "什么是资源跨域权限",
-            "slug": "什么是资源跨域权限",
-            "link": "#什么是资源跨域权限",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/issue/cors.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "其他",
-    "headers": [],
-    "path": "/issue/other.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第三方token访问有问题",
-    "headers": [
-      {
-        "level": 2,
-        "title": "问题的现象",
-        "slug": "问题的现象",
-        "link": "#问题的现象",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "问题的原因",
-        "slug": "问题的原因",
-        "link": "#问题的原因",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "解决方法及步骤",
-        "slug": "解决方法及步骤",
-        "link": "#解决方法及步骤",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "1. 覆盖 mars2d.Token 中默认值",
-        "slug": "_1-覆盖-mars2d-token-中默认值",
-        "link": "#_1-覆盖-mars2d-token-中默认值",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2：批量替换修改 key 参数值",
-        "slug": "_2-批量替换修改-key-参数值",
-        "link": "#_2-批量替换修改-key-参数值",
-        "children": []
-      }
-    ],
-    "path": "/issue/token.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "vue技术栈下注意事项",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 任意 Mars2D 对象放入到 store、data、computed 中后，会引起系统越用越卡。",
-        "slug": "_1-任意-mars2d-对象放入到-store、data、computed-中后-会引起系统越用越卡。",
-        "link": "#_1-任意-mars2d-对象放入到-store、data、computed-中后-会引起系统越用越卡。",
-        "children": [
-          {
-            "level": 3,
-            "title": "vue3 中可以使用 markRaw 来标识不进行双向绑定",
-            "slug": "vue3-中可以使用-markraw-来标识不进行双向绑定",
-            "link": "#vue3-中可以使用-markraw-来标识不进行双向绑定",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. 用完的对象之后要及时销毁，防止出现功能在界面上关闭但对象还驻留在内存中的情况。",
-        "slug": "_2-用完的对象之后要及时销毁-防止出现功能在界面上关闭但对象还驻留在内存中的情况。",
-        "link": "#_2-用完的对象之后要及时销毁-防止出现功能在界面上关闭但对象还驻留在内存中的情况。",
-        "children": []
-      }
-    ],
-    "path": "/issue/vue.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "版本更新日志",
     "headers": [
       {
@@ -644,7 +520,7 @@ export const searchIndex = [
         "children": [
           {
             "level": 3,
-            "title": "1.  地图场景可视化",
+            "title": "1. 地图场景可视化",
             "slug": "_1-地图场景可视化",
             "link": "#_1-地图场景可视化",
             "children": []
@@ -692,15 +568,8 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "",
+    "title": "开发环境搭建",
     "headers": [
-      {
-        "level": 2,
-        "title": "title: 开发环境搭建date: 2022-09-22 15:39:13",
-        "slug": "title-开发环境搭建date-2022-09-22-15-39-13",
-        "link": "#title-开发环境搭建date-2022-09-22-15-39-13",
-        "children": []
-      },
       {
         "level": 2,
         "title": "开发环境搭建",
@@ -1549,6 +1418,130 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "加载外部资源的跨域问题",
+    "headers": [
+      {
+        "level": 2,
+        "title": "问题的现象",
+        "slug": "问题的现象",
+        "link": "#问题的现象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "解决方法及步骤",
+        "slug": "解决方法及步骤",
+        "link": "#解决方法及步骤",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "附：什么是资源跨域权限",
+        "slug": "附-什么是资源跨域权限",
+        "link": "#附-什么是资源跨域权限",
+        "children": [
+          {
+            "level": 3,
+            "title": "什么是 Access-Control-Allow-Origin",
+            "slug": "什么是-access-control-allow-origin",
+            "link": "#什么是-access-control-allow-origin",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "什么是资源跨域权限",
+            "slug": "什么是资源跨域权限",
+            "link": "#什么是资源跨域权限",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/issue/cors.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "其他",
+    "headers": [],
+    "path": "/issue/other.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第三方token访问有问题",
+    "headers": [
+      {
+        "level": 2,
+        "title": "问题的现象",
+        "slug": "问题的现象",
+        "link": "#问题的现象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "问题的原因",
+        "slug": "问题的原因",
+        "link": "#问题的原因",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "解决方法及步骤",
+        "slug": "解决方法及步骤",
+        "link": "#解决方法及步骤",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "1. 覆盖 mars2d.Token 中默认值",
+        "slug": "_1-覆盖-mars2d-token-中默认值",
+        "link": "#_1-覆盖-mars2d-token-中默认值",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2：批量替换修改 key 参数值",
+        "slug": "_2-批量替换修改-key-参数值",
+        "link": "#_2-批量替换修改-key-参数值",
+        "children": []
+      }
+    ],
+    "path": "/issue/token.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vue技术栈下注意事项",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 任意 Mars2D 对象放入到 store、data、computed 中后，会引起系统越用越卡。",
+        "slug": "_1-任意-mars2d-对象放入到-store、data、computed-中后-会引起系统越用越卡。",
+        "link": "#_1-任意-mars2d-对象放入到-store、data、computed-中后-会引起系统越用越卡。",
+        "children": [
+          {
+            "level": 3,
+            "title": "vue3 中可以使用 markRaw 来标识不进行双向绑定",
+            "slug": "vue3-中可以使用-markraw-来标识不进行双向绑定",
+            "link": "#vue3-中可以使用-markraw-来标识不进行双向绑定",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. 用完的对象之后要及时销毁，防止出现功能在界面上关闭但对象还驻留在内存中的情况。",
+        "slug": "_2-用完的对象之后要及时销毁-防止出现功能在界面上关闭但对象还驻留在内存中的情况。",
+        "link": "#_2-用完的对象之后要及时销毁-防止出现功能在界面上关闭但对象还驻留在内存中的情况。",
+        "children": []
+      }
+    ],
+    "path": "/issue/vue.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "整体架构及介绍",
     "headers": [
       {
@@ -1566,23 +1559,23 @@ export const searchIndex = [
         "children": [
           {
             "level": 3,
-            "title": "3.1 SDK主类库",
-            "slug": "_3-1-sdk主类库",
-            "link": "#_3-1-sdk主类库",
+            "title": "3.1 SDK 主类库",
+            "slug": "_3-1-sdk-主类库",
+            "link": "#_3-1-sdk-主类库",
             "children": []
           },
           {
             "level": 3,
-            "title": "3.2 SDK插件库（可选）",
-            "slug": "_3-2-sdk插件库-可选",
-            "link": "#_3-2-sdk插件库-可选",
+            "title": "3.2 SDK 插件库（可选）",
+            "slug": "_3-2-sdk-插件库-可选",
+            "link": "#_3-2-sdk-插件库-可选",
             "children": []
           },
           {
             "level": 3,
-            "title": "3.3 SDK的架构",
-            "slug": "_3-3-sdk的架构",
-            "link": "#_3-3-sdk的架构",
+            "title": "3.3 SDK 的架构",
+            "slug": "_3-3-sdk-的架构",
+            "link": "#_3-3-sdk-的架构",
             "children": []
           }
         ]
@@ -1834,3 +1827,16 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

@@ -6,6 +6,20 @@ date: 2022-09-22 15:39:13
 <h3> 开源仓库清单 </h3>
 
 ![配置图][1] <br />
+<p align="center">🌎 一款免费的二维地图客户端开发平台</p>
+
+<p align="center">
+<a target="_black" href="https://github.com/marsgis/mars2d">
+<img alt="GitHub stars" src="https://img.shields.io/github/stars/marsgis/mars2d?style=flat&logo=github">
+</a>&nbsp;
+<a target="_black" href="https://www.npmjs.com/package/mars2d">
+<img alt="Npm downloads" src="https://img.shields.io/npm/dt/mars2d?style=flat&logo=npm">
+</a>&nbsp;
+<a target="_black" href="https://www.npmjs.com/package/mars2d">
+<img alt="Npm version" src="https://img.shields.io/npm/v/mars2d.svg?style=flat&logo=npm&label=version"/>
+</a>
+</p>
+
 Mars2D 所有资料和代码都均是免费开源的公开发布方式，下面是 Mars2D 平台所有开源仓库的清单：
 
 ## 导航

@@ -1,9 +1,20 @@
-<template><div><h3> Mars2D 介绍 </h3>
+<template><div><!-- <h3> Mars2D 介绍 </h3> -->
 <h2 id="mars2d-是什么" tabindex="-1"><a class="header-anchor" href="#mars2d-是什么" aria-hidden="true">#</a> Mars2D 是什么？</h2>
 <p><code v-pre>Mars2D地理信息平台</code> 是<a href="http://marsgis.cn/" target="_blank" rel="noopener noreferrer">火星科技<ExternalLinkIcon/></a>研发的一款免费的二维地图客户端开发平台，基于<a href="https://leafletjs.com/" target="_blank" rel="noopener noreferrer">Leaflet<ExternalLinkIcon/></a>优化提升与 B/S 架构设计，支持多行业扩展的轻量级高效能 GIS 开发平台，提供了全新的大数据可视化、实时流数据可视化功能，通过本平台可快速实现浏览器和移动端上美观、流畅的地图呈现与空间分析，完成平台在不同行业的灵活应用。</p>
-<p>功能体验: <a href="http://mars2d.cn/" target="_blank" rel="noopener noreferrer">Mars2D 官网<ExternalLinkIcon/></a><br />
-开发资料: <a href="http://mars2d.cn/api/Map.html" target="_blank" rel="noopener noreferrer">API 文档<ExternalLinkIcon/></a>  <a href="http://mars2d.cn/dev/guide/" target="_blank" rel="noopener noreferrer">开发教程<ExternalLinkIcon/></a><br />
-开源代码: <a href="https://github.com/marsgis/mars2d" target="_blank" rel="noopener noreferrer">Github 开源代码<ExternalLinkIcon/></a>  <a href="https://gitee.com/marsgis/mars2d" target="_blank" rel="noopener noreferrer">Gitee 开源代码(国内)<ExternalLinkIcon/></a></p>
+<p>
+<a target="_black" href="https://www.npmjs.com/package/mars2d">
+<img alt="Npm version" src="https://img.shields.io/npm/v/mars2d.svg?style=flat&logo=npm&label=version"/>
+</a>&nbsp;
+<a target="_black" href="https://www.npmjs.com/package/mars2d">
+<img alt="Npm downloads" src="https://img.shields.io/npm/dt/mars2d?style=flat&logo=npm">
+</a>&nbsp;
+<a target="_black" href="https://github.com/marsgis/mars2d">
+<img alt="GitHub stars" src="https://img.shields.io/github/stars/marsgis/mars2d?style=flat&logo=github">
+</a>&nbsp;
+</p>
+<p>功能体验: 👉 <a href="http://mars2d.cn/" target="_blank" rel="noopener noreferrer">Mars2D 官网<ExternalLinkIcon/></a><br />
+开发资料: 👉 <a href="http://mars2d.cn/api/Map.html" target="_blank" rel="noopener noreferrer">API 文档<ExternalLinkIcon/></a>  👉<a href="http://mars2d.cn/dev/guide/" target="_blank" rel="noopener noreferrer">开发教程<ExternalLinkIcon/></a><br />
+开源代码: 👉 <a href="https://github.com/marsgis/mars2d" target="_blank" rel="noopener noreferrer">Github 开源代码<ExternalLinkIcon/></a>   👉<a href="https://gitee.com/marsgis/mars2d" target="_blank" rel="noopener noreferrer">Gitee 开源代码(国内)<ExternalLinkIcon/></a></p>
 <h2 id="反馈问题及技术交流" tabindex="-1"><a class="header-anchor" href="#反馈问题及技术交流" aria-hidden="true">#</a> 反馈问题及技术交流</h2>
 <blockquote>
 <p>在阅读教程时，如有<code v-pre>任何问题</code>或<code v-pre>建议意见</code>可以随时反馈给我们 ，谢谢！</p>
@@ -82,7 +93,7 @@ Mars2D 属于“客户端”层面的 “Web 浏览器端”+“二维” 的应
 </blockquote>
 <h2 id="mars2d-可以做什么" tabindex="-1"><a class="header-anchor" href="#mars2d-可以做什么" aria-hidden="true">#</a> Mars2D 可以做什么？</h2>
 <p>通过 Mars2D 提供的 Javascript API，可以实现以下功能：</p>
-<h3 id="_1-地图场景可视化" tabindex="-1"><a class="header-anchor" href="#_1-地图场景可视化" aria-hidden="true">#</a> 1.  地图场景可视化</h3>
+<h3 id="_1-地图场景可视化" tabindex="-1"><a class="header-anchor" href="#_1-地图场景可视化" aria-hidden="true">#</a> 1. 地图场景可视化</h3>
 <p>提供多种时空数据，包括影像、矢量、大数据等各类数据的叠加融合、支持包括 OGC、MapBox、ArcGIS、PGIS 等标准服务与数据的接入加载。逼真地呈现多种类型的地理信息可视化地图场景。
 <img src="@source/public/image/gn-1.jpg" alt="配置图"></p>
 <h3 id="_2-多坐标系支持" tabindex="-1"><a class="header-anchor" href="#_2-多坐标系支持" aria-hidden="true">#</a> 2. 多坐标系支持</h3>

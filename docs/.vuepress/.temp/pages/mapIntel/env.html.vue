@@ -1,15 +1,4 @@
-<template><div><!--
- * @Author: hxh 1641512047@qq.com
- * @Date: 2023-06-26 14:22:19
- * @LastEditors: hxh 1641512047@qq.com
- * @LastEditTime: 2023-06-29 16:15:32
- * @FilePath: \demo\docs\mapIntel\env.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
-<hr>
-<h2 id="title-开发环境搭建date-2022-09-22-15-39-13" tabindex="-1"><a class="header-anchor" href="#title-开发环境搭建date-2022-09-22-15-39-13" aria-hidden="true">#</a> title: 开发环境搭建
-date: 2022-09-22 15:39:13</h2>
-<h2 id="开发环境搭建" tabindex="-1"><a class="header-anchor" href="#开发环境搭建" aria-hidden="true">#</a> 开发环境搭建</h2>
+<template><div><h2 id="开发环境搭建" tabindex="-1"><a class="header-anchor" href="#开发环境搭建" aria-hidden="true">#</a> 开发环境搭建</h2>
 <p>利用 Mars2D 进行二次开发属于 Web 前端开发范畴，本章教程是基于通用情况下的推荐搭建的开发环境。</p>
 <p>Web 前端刚入门的朋友，常常想选择一个快速、好用、<strong>流行</strong>（其实我也不知道为什么要流行，或许是在技术的路上，工程师希望自己走在主流的路上？）的 IDE（Integrated Development Environment：集成开发环境）。IDE 重要么？重要也不重要。不重要是因为：它只是一个工具，我们更应该关注的是需求、逻辑、算法、知识等。重要是因为：它是一个工具，工欲善其事必先利其器，工具选好了常常能够达到事半功倍的效果。</p>
 <p>这些工具为后续讲解开发中所涉及到的工具，也是我们推荐的，建议您安装使用。 如果您对 Web 前端范畴技术栈有足够了解，并有其他习惯的工具也可以忽略安装。</p>
