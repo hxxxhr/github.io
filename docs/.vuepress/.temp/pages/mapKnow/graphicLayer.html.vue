@@ -1,4 +1,10 @@
 <template><div><h3> 矢量图层 </h3>
+<img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
 <p>地图场景中，地形和栅格来组成了二维的基础，但更多的业务还是需要 点线面等矢量数据来充实, 这就是我们的矢量数据图层。
 <img src="@source/public/image/map-graphic.jpg" alt="配置图"> <br /></p>
 <h2 id="_1-图层类型清单" tabindex="-1"><a class="header-anchor" href="#_1-图层类型清单" aria-hidden="true">#</a> 1. 图层类型清单</h2>

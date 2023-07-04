@@ -1,4 +1,10 @@
 <template><div><h3> 地图图层 Layer </h3>
+<img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
 <p>地图内是由各种不同的图层来叠加显示，形成整个二维地图场景的。 图层是地图中很重要的概念，也是平台内很重要的组成部分。<br />
 <img src="@source/public/image/map-layer.jpg" alt="配置图"></p>
 <h2 id="_1-图层类" tabindex="-1"><a class="header-anchor" href="#_1-图层类" aria-hidden="true">#</a> 1. 图层类</h2>
@@ -49,9 +55,9 @@ map<span class="token punctuation">.</span><span class="token function">addLayer
 </table>
 <h2 id="_2-常用图层介绍" tabindex="-1"><a class="header-anchor" href="#_2-常用图层介绍" aria-hidden="true">#</a> 2. 常用图层介绍</h2>
 <h3 id="_2-1-栅格瓦片图层" tabindex="-1"><a class="header-anchor" href="#_2-1-栅格瓦片图层" aria-hidden="true">#</a> 2.1 栅格瓦片图层</h3>
-<p>见<a href="">栅格瓦片</a>图层章节介绍。</p>
+<p>见<RouterLink to="/mapKnow/tileLayer.html">栅格瓦片</RouterLink>图层章节介绍。</p>
 <h3 id="_2-2-矢量数据图层" tabindex="-1"><a class="header-anchor" href="#_2-2-矢量数据图层" aria-hidden="true">#</a> 2.2 矢量数据图层</h3>
-<p>见<a href="">矢量数据图层</a>章节介绍。</p>
+<p>见<RouterLink to="/mapKnow/graphicLayer.html">矢量数据图层</RouterLink>章节介绍。</p>
 <h3 id="_2-3-group-图层组说明" tabindex="-1"><a class="header-anchor" href="#_2-3-group-图层组说明" aria-hidden="true">#</a> 2.3 Group 图层组说明</h3>
 <p>为了方便图层控制，平台提供了<code v-pre>type:'group'</code>的图层组<a href="http://mars2d.cn/api/GroupLayer.html" target="_blank" rel="noopener noreferrer">GroupLayer 类<ExternalLinkIcon/></a>图层，目前主要在构造 Map 时传入<code v-pre>basemaps</code>或<code v-pre>layers</code>参数中使用，可以用于：</p>
 <ul>

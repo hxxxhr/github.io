@@ -1,4 +1,10 @@
 <template><div><h3> 事件机制 </h3>
+<img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
 <p>无论是前端系统，还是二维/二维 GIS 应用系统，都离不开各种事件的应用，尤其是鼠标的单击、双击事件。 Mars2D 内大部分类均支持事件的绑定、解绑、触发等统一的事件机制</p>
 <h2 id="_1-事件的相关类" tabindex="-1"><a class="header-anchor" href="#_1-事件的相关类" aria-hidden="true">#</a> 1. 事件的相关类</h2>
 <p>1.事件相关的更多方法可以参阅<a href="http://mars2d.cn/api/leaflet/reference_cn.html#evented" target="_blank" rel="noopener noreferrer">Evented 类<ExternalLinkIcon/></a>的 API 文档。</p>

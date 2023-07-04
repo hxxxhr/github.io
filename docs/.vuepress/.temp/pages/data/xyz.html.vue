@@ -1,4 +1,10 @@
 <template><div><h3>瓦片底图：TIF影像金字塔切片处理及加载</h3>
+<img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
 <h2 id="_1-tif-格式介绍" tabindex="-1"><a class="header-anchor" href="#_1-tif-格式介绍" aria-hidden="true">#</a> 1. tif 格式介绍</h2>
 <p>TIF 文件为栅格图像文件，后缀为 tif 或 tiff，是 ogc 规范的一种，全称 GeoTiff。通常不能在资源管理器中查看 tif 栅格影像数据的坐标系信息，需要用 GIS 软件查看，因为它的坐标系信息写在数据文件内部。<br /></p>
 <p>tif 可以有 8 位，24 位等深度，一般真彩色是 24 位，而地形数据只有一个高度值，采用 8 位。目前很多卫星影像数据、地形数据的存储格式都是 tif。<br />
@@ -7,7 +13,7 @@
 <p>当前有很多软件都可以做切片处理，比如 ArcGIS 、GeoServer、Global Mapper、gdal2tiles（命令行）等，根据个人习惯选择 1 个工具处理即可。</p>
 <h3 id="_2-1-global-mapper-工具" tabindex="-1"><a class="header-anchor" href="#_2-1-global-mapper-工具" aria-hidden="true">#</a> 2.1 Global Mapper 工具</h3>
 <p>GlobalMapper 是一款功能强大的小型化 GIS 栅格影像、矢量数据处理、加工软件，其本身具备了 GIS 软件产品的几乎所有特性，做到了将复杂的问题简单化，哪怕你是对 GIS 一无所知的用户都可以很快的上手，简单直观的功能设计都能够帮助你以最快的速度完成所需要的工作，完成加工数据成品的任务。如在需要做影像数据镶嵌、智能栅格影像切割、专题图绘制、矢量信息绘制，标注、正射影像生成、GPS 定位、坐标转换、投影转换、卫星地图纠正、地形（DEM）高程数据处理、行业主流文件格式的相互转换（如 kml 格式转换、SHP 格式转换、IMG 格式转换、PIX 格式转换、TIFF 格式转换等…）的时候 GlobalMapper 较同行业软件的操作优势就立刻显现出来。同时软件本身提供了丰富的 WMS 数据源包括了：雷达孔径地图（TOPO）、DEM 数据地图、DigitalGlobe 水印卫星地图、STRM、USGS 数据等等，在已有的 WMS 的基础上用户也可以自行创建或添加 WMS 数据库，动静结合的数据处理、展现方式不能不说是一种创新，且可以为用户节约下不小数据寻找、采购的成本。<br />
-<a href="http://www.rivermap.cn/down.html" target="_blank" rel="noopener noreferrer">下载地址<ExternalLinkIcon/></a></p>
+<a href="http://data.mars2d.cn/tool/GlobalMapper.rar" target="_blank" rel="noopener noreferrer">下载地址<ExternalLinkIcon/></a></p>
 <h3 id="_2-2-cesiumlab-工具-影像切片-模块" tabindex="-1"><a class="header-anchor" href="#_2-2-cesiumlab-工具-影像切片-模块" aria-hidden="true">#</a> 2.2 Cesiumlab 工具“影像切片”模块</h3>
 <p>来源：北京西部世界公司</p>
 <p>说明：从官网下载工具后，按工具说明注册帐号登录后即可使用，是图形化界面操作，操作比较简便。<br/>
@@ -29,7 +35,7 @@
 <img src="@source/public/image/data-xyz-gm6.jpg" alt="配置图"> <br />7.等待导出完成。导出完成后目录如下：
 <img src="@source/public/image/data-xyz-gm7.jpg" alt="配置图"></p>
 <h3 id="_3-2-发布二维数据为-http-服务" tabindex="-1"><a class="header-anchor" href="#_3-2-发布二维数据为-http-服务" aria-hidden="true">#</a> 3.2 发布二维数据为 HTTP 服务</h3>
-<p>因为地图瓦片数据一般都很大，建议将瓦片目录发布为 http 服务可以访问的一个站点，操作方式参考 nginx、IIS、Tomcat 等 Http 服务器操作说明， 可以参考教程<a href="">发布地图数据服务</a></p>
+<p>因为地图瓦片数据一般都很大，建议将瓦片目录发布为 http 服务可以访问的一个站点，操作方式参考 nginx、IIS、Tomcat 等 Http 服务器操作说明， 可以参考教程<RouterLink to="/data/server.html">发布地图数据服务</RouterLink></p>
 <ul>
 <li>
 <p>可以将导出目录 exp 进行发布为服务：<code v-pre>http://localhost:8888/mapdata/exp/</code></p>

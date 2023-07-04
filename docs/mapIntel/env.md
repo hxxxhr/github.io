@@ -5,6 +5,13 @@ date: 2022-09-22 15:39:13
 
 ## 开发环境搭建
 
+<img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="../public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
+
 利用 Mars2D 进行二次开发属于 Web 前端开发范畴，本章教程是基于通用情况下的推荐搭建的开发环境。
 
 Web 前端刚入门的朋友，常常想选择一个快速、好用、**流行**（其实我也不知道为什么要流行，或许是在技术的路上，工程师希望自己走在主流的路上？）的 IDE（Integrated Development Environment：集成开发环境）。IDE 重要么？重要也不重要。不重要是因为：它只是一个工具，我们更应该关注的是需求、逻辑、算法、知识等。重要是因为：它是一个工具，工欲善其事必先利其器，工具选好了常常能够达到事半功倍的效果。
@@ -36,7 +43,9 @@ Web 前端刚入门的朋友，常常想选择一个快速、好用、**流行**
 node -v  # 查看node版本
 npm -v   # 查看npm版本
 ```
+
 ![配置图][1]
+
 ### 2.1 安装 nvm (可选)
 
 当多个项目并行时，由于创建的时间或人为选择等因素，各个项目里有着差异的 node 版本，这样我们在不同的项目里需要切换不同版本的 Node.js，所以 nvm 应运而生。 安装 nvm 前需要卸载已有的 node，再从[nvm-windows](https://github.com/coreybutler/nvm-windows)下载安装即可。
@@ -69,7 +78,8 @@ Visual Studio Code 简称 VS Code，是一款免费开源的现代化轻量级�
 - [EditorConfig for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)：统一项目内代码风格(`.editorconfig`文件配置)。
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)： 统一项目内代码格式化的方式(`.prettierrc`文件配置)。
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)： 统一项目内代码规范(`.eslintrc.js`、`.eslintignore`等文件配置)。
-![配置图][2]
+  ![配置图][2]
+
 ## 4 Nginx 服务
 
 我们在 Mars2D 开发中，一些地图、地形、模型数据都是比较庞大的数据，需要发布为独立的 HTTP 服务方便各个项目使用。发布服务的工具我们建议的是 nginx。
@@ -78,12 +88,12 @@ nginx 是轻量级的 Web 服务器/反向代理服务器。其特点是占有�
 
 您可以在[Nginx 官方下载地址](http://nginx.org/en/download.html)下载安装，但安装后需要自行加相关允许跨域等配置。
 
-也可以直接下载[Mars2D 版 Nginx 下载地址]()，这个版本是 window 版，并已设置允许跨域等相关配置，拿来即用。
+也可以直接下载[Mars2D 版 Nginx 下载地址](http://data.mars2d.cn/tool/nginx.rar)，这个版本是 window 版，并已设置允许跨域等相关配置，拿来即用。
 ![配置图][3]
+
 ## 5 Chrome 浏览器
 
 建议使用[Chrome 谷歌浏览器](https://www.google.cn/chrome/)的最新版本进行开发和调试。
-
 
 [1]: ../public/image/start-env-node.jpg
 [2]: ../public/image/start-env-vscode.jpg

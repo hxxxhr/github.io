@@ -5,6 +5,13 @@ date: 2022-09-22 15:39:13
 
 <h3> 系统环境要求 </h3>
 
+<img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="../public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
+
 本节介绍 浏览访问 Mars2D 相关系统环境要求 ：
 
 - 必须有 HTTP Server 来发布后运行（http 方式访问），如：[http://mars2d.cn/project/jcxm/index.html](http://mars3d.cn/project/es5/jcxm.html)

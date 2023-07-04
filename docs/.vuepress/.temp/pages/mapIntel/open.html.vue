@@ -1,5 +1,11 @@
 <template><div><h3> 开源仓库清单 </h3>
-<p><img src="@source/public/image/logo.png" alt="配置图"> <br /></p>
+<img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
+<p><img src="@source/public/image/logo.png" alt="开源仓库配置图"> <br /></p>
 <p align="center">🌎 一款免费的二维地图客户端开发平台</p>
 <p align="center">
 <a target="_black" href="https://github.com/marsgis/mars2d">

@@ -1,4 +1,10 @@
 <template><div><h2 id="开发环境搭建" tabindex="-1"><a class="header-anchor" href="#开发环境搭建" aria-hidden="true">#</a> 开发环境搭建</h2>
+<img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
 <p>利用 Mars2D 进行二次开发属于 Web 前端开发范畴，本章教程是基于通用情况下的推荐搭建的开发环境。</p>
 <p>Web 前端刚入门的朋友，常常想选择一个快速、好用、<strong>流行</strong>（其实我也不知道为什么要流行，或许是在技术的路上，工程师希望自己走在主流的路上？）的 IDE（Integrated Development Environment：集成开发环境）。IDE 重要么？重要也不重要。不重要是因为：它只是一个工具，我们更应该关注的是需求、逻辑、算法、知识等。重要是因为：它是一个工具，工欲善其事必先利其器，工具选好了常常能够达到事半功倍的效果。</p>
 <p>这些工具为后续讲解开发中所涉及到的工具，也是我们推荐的，建议您安装使用。 如果您对 Web 前端范畴技术栈有足够了解，并有其他习惯的工具也可以忽略安装。</p>
@@ -75,7 +81,7 @@ nrm use taobao
 <p>我们在 Mars2D 开发中，一些地图、地形、模型数据都是比较庞大的数据，需要发布为独立的 HTTP 服务方便各个项目使用。发布服务的工具我们建议的是 nginx。</p>
 <p>nginx 是轻量级的 Web 服务器/反向代理服务器。其特点是占有内存少，并发能力强。可用于瓦片底图、地形数据、模型等产品用到的各类数据的服务发布。更多细节和教程可以参看<a href="https://www.baidu.com/s?wd=nginx" target="_blank" rel="noopener noreferrer">Nginx 资料<ExternalLinkIcon/></a></p>
 <p>您可以在<a href="http://nginx.org/en/download.html" target="_blank" rel="noopener noreferrer">Nginx 官方下载地址<ExternalLinkIcon/></a>下载安装，但安装后需要自行加相关允许跨域等配置。</p>
-<p>也可以直接下载<a href="">Mars2D 版 Nginx 下载地址</a>，这个版本是 window 版，并已设置允许跨域等相关配置，拿来即用。
+<p>也可以直接下载<a href="http://data.mars2d.cn/tool/nginx.rar" target="_blank" rel="noopener noreferrer">Mars2D 版 Nginx 下载地址<ExternalLinkIcon/></a>，这个版本是 window 版，并已设置允许跨域等相关配置，拿来即用。
 <img src="@source/public/image/start-env-nginx.jpg" alt="配置图"></p>
 <h2 id="_5-chrome-浏览器" tabindex="-1"><a class="header-anchor" href="#_5-chrome-浏览器" aria-hidden="true">#</a> 5 Chrome 浏览器</h2>
 <p>建议使用<a href="https://www.google.cn/chrome/" target="_blank" rel="noopener noreferrer">Chrome 谷歌浏览器<ExternalLinkIcon/></a>的最新版本进行开发和调试。</p>

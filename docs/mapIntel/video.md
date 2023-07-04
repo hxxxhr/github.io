@@ -5,6 +5,13 @@ date: 2022-09-22 15:39:13
 
 <h3> 基础讲解视频 </h3>
 
+<img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="../public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
+
 我们对一些知识也录制了讲解视频，大家可以按需浏览，建议大家都看一遍。
 
 ## 1. 基础知识篇
@@ -23,4 +30,4 @@ date: 2022-09-22 15:39:13
 
 ## 3. 项目讲解
 
-可以在下一篇[开源资源清单]()的视频列查看
+可以在下一篇[开源资源清单](/mapIntel/open.md)的视频列查看

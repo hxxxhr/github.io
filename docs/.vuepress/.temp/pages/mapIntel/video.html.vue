@@ -1,4 +1,10 @@
 <template><div><h3> 基础讲解视频 </h3>
+<img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
 <p>我们对一些知识也录制了讲解视频，大家可以按需浏览，建议大家都看一遍。</p>
 <h2 id="_1-基础知识篇" tabindex="-1"><a class="header-anchor" href="#_1-基础知识篇" aria-hidden="true">#</a> 1. 基础知识篇</h2>
 <table>
@@ -45,7 +51,7 @@
 </tbody>
 </table>
 <h2 id="_3-项目讲解" tabindex="-1"><a class="header-anchor" href="#_3-项目讲解" aria-hidden="true">#</a> 3. 项目讲解</h2>
-<p>可以在下一篇<a href="">开源资源清单</a>的视频列查看</p>
+<p>可以在下一篇<RouterLink to="/mapIntel/open.html">开源资源清单</RouterLink>的视频列查看</p>
 </div></template>
 
 

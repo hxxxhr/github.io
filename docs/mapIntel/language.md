@@ -4,6 +4,12 @@ date: 2022-09-22 15:39:13
 ---
 
 <h3> 开发语言 </h3>
+<img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="../public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
 
 Mars2D 所涉及的开发，是属于 Web 前端 的开发范畴。
 
@@ -41,4 +47,4 @@ Mars2D 是涉及两个个知识领域 :Web 前端、地理信息系统（GIS）�
 
 ### 2.2 各开发语言技术栈下的开源代码
 
-参考[Mars2D 开源仓库清单]()下载对应技术栈的代码进行学习或使用。目前主要分`原生JS`、`Vue`、`React`、`Angular` 四大类。
+参考[Mars2D 开源仓库清单](/mapIntel/open.md)下载对应技术栈的代码进行学习或使用。目前主要分`原生JS`、`Vue`、`React`、`Angular` 四大类。

@@ -5,6 +5,13 @@ date: 2022-09-22 15:39:13
 
 <h3> Mars2D版本及更新日志 </h3>
 
+<img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="../public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
+
 #### 1. Mars2D 的版本
 
 Mars2D 的版本号包括三个部分，比如 v3.2.1 版本中，**主版本号是 3，大版本号是 2，小版本号是 1**
@@ -45,7 +52,7 @@ Mars2D 的版本号包括三个部分，比如 v3.2.1 版本中，**主版本号
 
 当前页面日志可能不是最新版本，最新<a target="_black" href="https://www.npmjs.com/package/mars2d">
 <img alt="Npm version" src="https://img.shields.io/npm/v/mars2d.svg?style=flat&logo=npm&label=version"/>
-</a>版本更新日志， 
+</a>版本更新日志，
 
 可以访问[Github-CHANGE.md](https://github.com/marsgis/mars2d/blob/master/CHANGE.md)或[Gitee-CHANGE.md](https://gitee.com/marsgis/mars2d/blob/master/CHANGE.md)
 

@@ -1,25 +1,28 @@
-<template><div><h3> 交流社区 及 寻求帮助 11</h3>
+<template><div><h3> 交流社区 及 寻求帮助</h3>
+<img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
 <h2 id="交流社区" tabindex="-1"><a class="header-anchor" href="#交流社区" aria-hidden="true">#</a> 交流社区</h2>
 <h3 id="_1-微信技术交流群" tabindex="-1"><a class="header-anchor" href="#_1-微信技术交流群" aria-hidden="true">#</a> 1.微信技术交流群</h3>
 <p>微信沟通是最快捷高效的方式，大家可以加我们<a href="http://mars2d.cn/community.html" target="_blank" rel="noopener noreferrer">技术交流群<ExternalLinkIcon/></a>进行直接沟通交流。<br/>
 目前我们团队每周安排了相关人员在微信群内进行运维，每天与用户进行交流，解答用户的问题、梳理并记录用户的问题和需求，最终解决反馈用户的问题。</p>
 <blockquote>
-<p>重要原则：<br /> 1.<strong>一次性描述清楚</strong>：提问题时，避免简单的一句话或一张图片(看图猜问题)，可以简短描述清楚问题，并提供<code v-pre>F12 的错误提示/js 代码截图/页面运行效果</code>、<code v-pre>手机拍视频</code>方式辅助理解问题。 <br />
-2.<strong>提供独立可运行的代码</strong>：代码问题时，建议在我们<code v-pre>官网示例</code>或<code v-pre>开源的项目模版</code>中可以复现问题后，反馈对应代码给我们调试解决，必须能够独立运行，无法运行的代码，无法排查问题。 <br />
-3.<strong>尽量多参与回答其他用户</strong>：交流群是大家互相交流学习的，众人拾柴火焰高，你知道的问题也欢迎大家互相解答交流。</p>
+<p>重要原则：<br /> 1.<strong>一次性描述清楚</strong>：提问题时，避免简单的一句话或一张图片(看图猜问题)，可以简短描述清楚问题，并提供<code v-pre>F12 的错误提示/js 代码截图/页面运行效果</code>、<code v-pre>手机拍视频</code>方式辅助理解问题。 <br /> 2.<strong>提供独立可运行的代码</strong>：代码问题时，建议在我们<code v-pre>官网示例</code>或<code v-pre>开源的项目模版</code>中可以复现问题后，反馈对应代码给我们调试解决，必须能够独立运行，无法运行的代码，无法排查问题。 <br /> 3.<strong>尽量多参与回答其他用户</strong>：交流群是大家互相交流学习的，众人拾柴火焰高，你知道的问题也欢迎大家互相解答交流。</p>
 </blockquote>
 <h3 id="_2-issues-问题发布网站-建议" tabindex="-1"><a class="header-anchor" href="#_2-issues-问题发布网站-建议" aria-hidden="true">#</a> 2. issues 问题发布网站（建议）</h3>
-<p>因群内交流可能消息杂乱，容易遗漏，您也可以自行将问题按本文后续说明，描述清晰后，直接在<a href=""> gitee issues 平台</a>平台发布提交，我们会有运维人员<strong>每天处理回复(有响应)</strong>，并**每周动态清零**所有问题。</p>
+<p>因群内交流可能消息杂乱，容易遗漏，您也可以自行将问题按本文后续说明，描述清晰后，直接在<a href="https://gitee.com/marsgis/mars2d/issues?state=all" target="_blank" rel="noopener noreferrer"> gitee issues 平台<ExternalLinkIcon/></a>平台发布提交，我们会有运维人员<strong>每天处理回复(有响应)</strong>，并**每周动态清零**所有问题。</p>
 <blockquote>
-<p>重要原则：<br /> 1.<strong>一次性描述清楚</strong>避免简单的一句话或一张图片(看图猜问题)，可以简短描述清楚问题，并提供<code v-pre>F12 的错误提示/js 代码截图/页面运行效果</code>、<code v-pre>手机拍视频</code>、<code v-pre>粘贴关键代码</code>方式辅助理解问题。<br />
-2.<strong>提供独立可运行的代码</strong>：复杂代码相关问题，也可以提供独立独立运行的代码包到问题附件，或发邮件给<a href="http://mars2d.cn/contact.html" target="_blank" rel="noopener noreferrer">我们<ExternalLinkIcon/></a></p>
+<p>重要原则：<br /> 1.<strong>一次性描述清楚</strong>避免简单的一句话或一张图片(看图猜问题)，可以简短描述清楚问题，并提供<code v-pre>F12 的错误提示/js 代码截图/页面运行效果</code>、<code v-pre>手机拍视频</code>、<code v-pre>粘贴关键代码</code>方式辅助理解问题。<br /> 2.<strong>提供独立可运行的代码</strong>：复杂代码相关问题，也可以提供独立独立运行的代码包到问题附件，或发邮件给<a href="http://mars2d.cn/contact.html" target="_blank" rel="noopener noreferrer">我们<ExternalLinkIcon/></a></p>
 </blockquote>
 <h2 id="尝试自行解决问题" tabindex="-1"><a class="header-anchor" href="#尝试自行解决问题" aria-hidden="true">#</a> 尝试自行解决问题</h2>
 <p>Mars2D 有非常大量的用户，所以你遇到过的问题，很可能别人在此之前也遇到并解决了。通过查看文档以及使用搜索引擎搜索关键字，可以帮助你自助地在第一时间解决问题，而不需要依赖社区的帮助。<br />
 因此，在做其他操作前，请确保现有文档等资料无法解决你的问题。可以尝试查看或搜索的资料包括：</p>
 <ul>
 <li>当前您正在阅读的教程，建议通读一遍（看不懂的欢迎随时反馈给<a href="http://mars2d.cn/contact.html" target="_blank" rel="noopener noreferrer">我们<ExternalLinkIcon/></a>，我们会优化补充）</li>
-<li>下载并运行 <a href="">功能示例</a>代码，对相关示例代码浏览学习</li>
+<li>下载并运行 <a href="http://mars2d.cn/doc.html#project/example-vue" target="_blank" rel="noopener noreferrer">功能示例<ExternalLinkIcon/></a>代码，对相关示例代码浏览学习</li>
 <li>代码中类、方法、参数不理解时可以查阅<a href="http://mars2d.cn/api/Map.html" target="_blank" rel="noopener noreferrer">API 文档<ExternalLinkIcon/></a></li>
 <li>使用 Baidu 等搜索引擎搜索</li>
 <li>一些 Mars2D 用户的技术博客，如：<a href="https://gitee.com/marsgis/mars2d/issues?state=all" target="_blank" rel="noopener noreferrer">gitee issues<ExternalLinkIcon/></a><a href="https://www.yuque.com/yizhangxiatian/wl3uib" target="_blank" rel="noopener noreferrer">爱吃西兰花<ExternalLinkIcon/></a><a href="https://www.yuque.com/junjie-bsy9h/wqqpk5" target="_blank" rel="noopener noreferrer">azu<ExternalLinkIcon/></a>（欢迎提交您的博客给<a href="http://mars2d.cn/contact.html" target="_blank" rel="noopener noreferrer">我们<ExternalLinkIcon/></a>）
@@ -50,8 +53,8 @@
 <ul>
 <li>明确需求：您可以梳理问题、明确<strong>交付物</strong>和<strong>悬赏金额</strong>，如果不知道怎么梳理，您可以联系我司<a href="http://marsgis.cn/img/weixin/kefu.png" target="_blank" rel="noopener noreferrer">运维人员<ExternalLinkIcon/></a>协助您梳理清楚。</li>
 <li>发布需求：可以将梳理后的需求发布在<a href="http://mars2d.cn/doc.html#start/help" target="_blank" rel="noopener noreferrer">giteeissues<ExternalLinkIcon/></a>并群里发布问题概要和链接</li>
-<li>对接需求：群友如果有接单的，互相对接问题，建议悬赏人事先支付50%，完结验收后支付50%</li>
-<li>验收需求：建议处理人在24小时内解决该问题, 悬赏人已回复确认问题已经解决，整个流程结束，关闭issues
+<li>对接需求：群友如果有接单的，互相对接问题，建议悬赏人事先支付 50%，完结验收后支付 50%</li>
+<li>验收需求：建议处理人在 24 小时内解决该问题, 悬赏人已回复确认问题已经解决，整个流程结束，关闭 issues
 注意事项</li>
 <li>如果问题没有解决(事先沟通好验收标准)，建议处理人<strong>全额退回</strong>所有打赏金额</li>
 <li>这是<strong>个人对个人</strong>行为，是直接发红包给解决您问题的对应处理人员，无发票，并只接受<strong>微信红包</strong>方式</li>

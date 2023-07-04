@@ -5,6 +5,13 @@ date: 2022-09-22 15:39:13
 
 <h3> 加载外部资源的跨域问题 </h3>
 
+<img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="../public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
+
 ## 问题的现象
 
 浏览器提示 CORS policy 错误，所加载的底图、地形、模型等外部数据没有显示。F12 中提示 CORS 相关错误。
@@ -16,8 +23,7 @@ date: 2022-09-22 15:39:13
 - 若服务端可控：添加跨域头
 - 若服务端不可控：添加代理服务，代理方式有很多，我们有 2 种推荐的方式：
 
-  1.可以使用[nginx](data.mars2d.cn/toolnginx.rar)来代理，需要有一定 nginx 基础知识。 <br />
-  2.可以使用[https://github.com/muyao1987/web-proxy](https://github.com/muyao1987/web-proxy)发布的服务，并在相关代码配置 proxy 属性，来代理转发相关请求。
+  1.可以使用[nginx](http://data.mars2d.cn/tool/nginx.rar)来代理，需要有一定 nginx 基础知识。 <br /> 2.可以使用[https://github.com/muyao1987/web-proxy](https://github.com/muyao1987/web-proxy)发布的服务，并在相关代码配置 proxy 属性，来代理转发相关请求。
   ![配置图][1]
 
 ## 附：什么是资源跨域权限

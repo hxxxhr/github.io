@@ -1,4 +1,10 @@
 <template><div><h3> 地图控件 </h3>
+<img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
 <p>地图控件是指一些 DOM 面板或按钮，并与地图有所交互的对象，目前包含 2 大类，第一种是 Leaflet 原生具备的控件，第 2 类是 Mars2D 编写的控件。</p>
 <h2 id="_1-leaflet-原生控件" tabindex="-1"><a class="header-anchor" href="#_1-leaflet-原生控件" aria-hidden="true">#</a> 1. Leaflet 原生控件</h2>
 <p>目前主要使用场景是在创建地图前，你可以在配置项中通过<code v-pre>control</code>对控件中的功能组件进行相应的配置,支持的参数参考<a href="http://mars2d.cn/api/Map.html#.controlOptions" target="_blank" rel="noopener noreferrer">control 参数说明<ExternalLinkIcon/></a>。此种方式支持 Leaflet.Viewer 本身支持的一些 Leaflet 原生控件的控制。</p>

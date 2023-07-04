@@ -1,12 +1,18 @@
 <template><div><h3> 在已有项目中集成Mars2D </h3>
+<img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
 <p>在阅读本节前，建议您已阅读：</p>
 <ul>
-<li><a href="">获取 Mars2D SDK 类库</a> ：了解 sdk 的不同下载及安装方式</li>
-<li><a href="">开源仓库清单</a>：下载一些模版代码阅读或参考下<br />
+<li><RouterLink to="/start/download.html">获取 Mars2D SDK 类库</RouterLink> ：了解 sdk 的不同下载及安装方式</li>
+<li><RouterLink to="/mapIntel/open.html">开源仓库清单</RouterLink>：下载一些模版代码阅读或参考下<br />
 再尝试将 mars2d 集成到自己的项目中。</li>
 </ul>
 <h3> 1. 引入Mars2D类库 </h3>
-<p>可以根据您自己的技术栈使用情况<a href="">获取 Mars2DSDK 类库</a> 进行下载或引入 Mars2D 库到自己的项目中去使用。</p>
+<p>可以根据您自己的技术栈使用情况<RouterLink to="/start/download.html">获取 Mars2DSDK 类库</RouterLink> 进行下载或引入 Mars2D 库到自己的项目中去使用。</p>
 <h2 id="方式-1-head-静态资源方式引入" tabindex="-1"><a class="header-anchor" href="#方式-1-head-静态资源方式引入" aria-hidden="true">#</a> 方式 1：head 静态资源方式引入</h2>
 <p>在 html 的 head 标签中引入 Cesium 官方包和 Mars2D 包相关资源，此方法比较简单，不会出现各类集成问题，引入资源后在代码即可通过<code v-pre>window.mars2d</code>来使用相关 mars2d 类及方法。</p>
 <h2 id="方式-2-import-方式导入" tabindex="-1"><a class="header-anchor" href="#方式-2-import-方式导入" aria-hidden="true">#</a> 方式 2： import 方式导入</h2>

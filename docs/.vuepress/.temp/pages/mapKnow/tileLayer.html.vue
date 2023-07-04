@@ -1,4 +1,10 @@
 <template><div><h3> 栅格瓦片图层 </h3>
+<img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
 <p>前面我们说到地形是地图场景的&quot;骨骼&quot;，栅格瓦片图层就是我们浏览二维能感知的&quot;皮肤&quot;了，通常我们叠加的是各种卫星影像或瓦片数据。<br />
 <img src="@source/public/image/map-tileLayer.jpg" alt="配置图"> <br />
 Mars2D 支持多种服务来源的高精度影像地图数据的加载和渲染。图层支持排序和透明混合，支持设置影像图层相关属性，比如透明度等。</p>
@@ -19,9 +25,9 @@ Mars2D 支持多种服务来源的高精度影像地图数据的加载和渲染�
 <h3 id="_1-2-栅格瓦片数据来源" tabindex="-1"><a class="header-anchor" href="#_1-2-栅格瓦片数据来源" aria-hidden="true">#</a> 1.2 栅格瓦片数据来源</h3>
 <ul>
 <li>直接访问在线互联网服务，如百度、高德、腾讯、谷歌等</li>
-<li>下载在线互联网服务到本地离线使用，可以<a href="">在线地图的下载和使用</a></li>
+<li>下载在线互联网服务到本地离线使用，可以<RouterLink to="/data/xyzDown.html">在线地图的下载和使用</RouterLink></li>
 <li>对源数据发布为标准服务加载，如 wms、wmts、arcgis 等</li>
-<li>对源数据进行切片，可以参考<a href="">影像图切片处理及加载</a></li>
+<li>对源数据进行切片，可以参考<RouterLink to="/data/xyz.html">影像图切片处理及加载</RouterLink></li>
 </ul>
 <h2 id="_2-图层类型清单" tabindex="-1"><a class="header-anchor" href="#_2-图层类型清单" aria-hidden="true">#</a> 2. 图层类型清单</h2>
 <p>栅格瓦片图层，大部分都是继承自<a href="http://mars2d.cn/api/TileLayer.html" target="_blank" rel="noopener noreferrer">TileLayer<ExternalLinkIcon/></a>类的子类对象。

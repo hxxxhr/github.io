@@ -5,6 +5,13 @@ date: 2022-09-22 15:39:13
 
  <h3> 发布地图数据服务</h3>
 
+ <img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="../public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
+
 通过数据处理的流程我们大概了解了目前二维相关的影像、地形、模型都是瓦片形式的静态资源文件，如果我们需要发布为服务，只需要通过 HTTP 方式发布后，平台即可调用。
 
 ## 1. Nginx 软件安装
@@ -13,15 +20,15 @@ date: 2022-09-22 15:39:13
 
 ### 1.1 解压 nginx.rar 至 D 盘根目录，解压后效果如下
 
-[nginx 下载地址](data.mars2d.cn/tool/nginx.rar)
+[nginx 下载地址](https://data.mars2d.cn/tool/nginx.rar)
 
 ### 1.2 安装注册至 window 服务
 
 打开电脑自动启动服务，打开“命令说明.txt”复制`nginx-service.exe install`命令进行安装操作。
 
- - 如果没有放在 D 盘根目录，修改`nginx-service.xml`里的目录路径为实际安装路径。
- - 默认端口为 80，如有冲突请修改`nginx\conf\host\localhsot_80.conf`文件 <br />
-如果不需要注册 window 服务，单次启动输入`start nginx`命令即可。
+- 如果没有放在 D 盘根目录，修改`nginx-service.xml`里的目录路径为实际安装路径。
+- 默认端口为 80，如有冲突请修改`nginx\conf\host\localhsot_80.conf`文件 <br />
+  如果不需要注册 window 服务，单次启动输入`start nginx`命令即可。
 
 ### 1.3 启动 nginx 服务
 
@@ -30,7 +37,7 @@ date: 2022-09-22 15:39:13
 
 ## 2. 二维数据发布
 
-下载[mars2d-data 示例数据]()放在电脑的`D:\mars2d-data\`目录，<br />
+下载[mars2d-data 示例数据](http://data.mars2d.cn/tool/mars2d-data.rar)放在电脑的`D:\mars2d-data\`目录，<br />
 如果需要放其他盘或其他目录时参考已有配置修改`nginx\conf\host\localhsot_80.conf`配置即可。<br />
 `D:\mars2d-data\`中可以按数据类型分子目录后放各类数据。<br />
 ![配置图][2]
@@ -48,7 +55,7 @@ date: 2022-09-22 15:39:13
 
 ## 1.3 对应代码中测试服务 URL
 
-- XYZ 底图时：可以参考教程[加载 XYZ 数据步骤]()
+- XYZ 底图时：可以参考教程[加载 XYZ 数据步骤](/mapKnow/tileLayer.md#5-加载-xyz-数据步骤)
 
 [1]: ../public/image/data-server-nginx.jpg
 [2]: ../public/image/data-server-path.jpg

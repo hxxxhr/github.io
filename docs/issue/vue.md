@@ -4,7 +4,15 @@ date: 2022-09-22 15:39:13
 ---
 
 <h3> vue技术栈下开发注意事项 </h3>
-在基于vue框架+Mars2D产品做二维应用开发的项目中，比较常见的问题是性能卡顿。经过排查，发现普遍是由以下问题引起的，现总结出引起相关问题的原因及解决办法，以供参考：<br />
+
+<img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="../public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
+
+在基于 vue 框架+Mars2D 产品做二维应用开发的项目中，比较常见的问题是性能卡顿。经过排查，发现普遍是由以下问题引起的，现总结出引起相关问题的原因及解决办法，以供参考：<br />
 
 ## 1. 任意 Mars2D 对象放入到 store、data、computed 中后，会引起系统越用越卡。
 
@@ -18,6 +26,7 @@ vue 响应式框架对页面数据的渲染非常友好，会把 data 内所有�
 
 markRaw 作用：标记一个对象，使其永远不会再成为响应式对象。
 ![配置图][2]
+
 ## 2. 用完的对象之后要及时销毁，防止出现功能在界面上关闭但对象还驻留在内存中的情况。
 
 目前 Leaflet 和 Mars2D 的类都有 remove、destroy 方法，在 vue 组件关闭时及时销毁使用完的对象。

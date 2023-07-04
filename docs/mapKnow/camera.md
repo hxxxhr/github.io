@@ -5,6 +5,13 @@ date: 2022-09-22 15:39:13
 
 <h3> 视角控制</h3>
 
+<img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="../public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
+
 ## 1. map 中视角相关设置和方法
 
 我们在创建地图时，可以在[center 参数](http://mars2d.cn/api/Map.html#.Options)中来设置默认视角，如：

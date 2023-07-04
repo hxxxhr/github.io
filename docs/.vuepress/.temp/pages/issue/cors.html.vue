@@ -1,4 +1,10 @@
 <template><div><h3> 加载外部资源的跨域问题 </h3>
+<img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
 <h2 id="问题的现象" tabindex="-1"><a class="header-anchor" href="#问题的现象" aria-hidden="true">#</a> 问题的现象</h2>
 <p>浏览器提示 CORS policy 错误，所加载的底图、地形、模型等外部数据没有显示。F12 中提示 CORS 相关错误。</p>
 <h2 id="解决方法及步骤" tabindex="-1"><a class="header-anchor" href="#解决方法及步骤" aria-hidden="true">#</a> 解决方法及步骤</h2>
@@ -9,8 +15,7 @@
 </li>
 <li>
 <p>若服务端不可控：添加代理服务，代理方式有很多，我们有 2 种推荐的方式：</p>
-<p>1.可以使用<a href="data.mars2d.cn/toolnginx.rar">nginx</a>来代理，需要有一定 nginx 基础知识。 <br />
-2.可以使用<a href="https://github.com/muyao1987/web-proxy" target="_blank" rel="noopener noreferrer">https://github.com/muyao1987/web-proxy<ExternalLinkIcon/></a>发布的服务，并在相关代码配置 proxy 属性，来代理转发相关请求。
+<p>1.可以使用<a href="http://data.mars2d.cn/tool/nginx.rar" target="_blank" rel="noopener noreferrer">nginx<ExternalLinkIcon/></a>来代理，需要有一定 nginx 基础知识。 <br /> 2.可以使用<a href="https://github.com/muyao1987/web-proxy" target="_blank" rel="noopener noreferrer">https://github.com/muyao1987/web-proxy<ExternalLinkIcon/></a>发布的服务，并在相关代码配置 proxy 属性，来代理转发相关请求。
 <img src="@source/public/image/issue-cors.jpg" alt="配置图"></p>
 </li>
 </ul>

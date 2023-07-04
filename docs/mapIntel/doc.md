@@ -3,7 +3,14 @@ title: Mars2D介绍
 date: 2021-01-03
 ---
 
-<!-- <h3> Mars2D 介绍 </h3> -->
+<h3> Mars2D 介绍 </h3>
+
+<img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="../public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
 
 ## Mars2D 是什么？
 
@@ -44,9 +51,9 @@ Mars2D 属于“客户端”层面的 “Web 浏览器端”+“二维” 的应
 平台主要由： **SDK 类库、功能示例、项目模板**共 3 大部分组成。这些资料均免费开放，并可下载离线本地使用。
 | 组成 | 获取方式 | 相关资料 | 备注 |
 | :--------: | :-----: | :----: | :----: |
-| SDK 类库 | [免费下载]() | [API 文档](http://mars2d.cn/apidoc.html#Map) |免费无限制使用|
-| 功能示例 | [Github 开源]() 、[在线体验](http://marsgis.cn/example.html) | [功能清单](http://mars2d.cn/example.html)(页面左下侧)|包含 400+功能示例及源码|
-| 项目模板 | [Github 开源]() | |面向不同技术栈做的项目模板|
+| SDK 类库 | [免费下载](/start/download.md) | [API 文档](http://mars2d.cn/apidoc.html#Map) |免费无限制使用|
+| 功能示例 | [Github 开源](/mapIntel/open.md) 、[在线体验](http://marsgis.cn/example.html) | [功能清单](http://mars2d.cn/example.html)(页面左下侧)|包含 400+功能示例及源码|
+| 项目模板 | [Github 开源](/mapIntel/open.md) | |面向不同技术栈做的项目模板|
 
 > 正常开发流程：免费下载 SDK、参考开源的“功能示例、项目模板”进行开发即可。
 

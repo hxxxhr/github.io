@@ -1,4 +1,10 @@
 <template><div><h3> 核心依赖库 Leaflet 介绍 </h3>
+<img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
 <p><a href="https://leafletjs.com/" target="_blank" rel="noopener noreferrer">Leaflet<ExternalLinkIcon/></a>是一个开源的 JavaScript 库，对移动端友好且有很好的交互性。大小仅仅只有 33 KB， 同时具有大多数地图所需要的特点。 Leaflet 设计的非常简单易懂, 同时具有很好的性能和易用性。 它在桌面端和移动端都工作的相当高效，并有大量的插件用于扩张 Leaflet 的功能。</p>
 <h2 id="_1-leaflet-的作者-个人-vladimir-agafonkin" tabindex="-1"><a class="header-anchor" href="#_1-leaflet-的作者-个人-vladimir-agafonkin" aria-hidden="true">#</a> 1. Leaflet 的作者(个人)：Vladimir Agafonkin</h2>
 <p>Vladimir Agafonkin 是一名软件工程师。他创建了 Leaflet，它是交互式网络地图的第一大库，并维护了 40 多个其他开源项目，重点是算法、计算几何和性能。目前作者就职于 Mapbox 公司。</p>
@@ -26,9 +32,18 @@
 <a href="https://leafletjs.com/" target="_blank" rel="noopener noreferrer">Leaflet 官网<ExternalLinkIcon/></a>  <a href="https://leafletjs.com/blog.html" target="_blank" rel="noopener noreferrer">官方博客<ExternalLinkIcon/></a></p>
 <h2 id="_3-leaflet-的源码" tabindex="-1"><a class="header-anchor" href="#_3-leaflet-的源码" aria-hidden="true">#</a> 3. Leaflet 的源码</h2>
 <p>Leaflet 遵循 BSD-2-Clause License 许可开源协议，可以免费的用于商业和非商业用途，无论是个人还是商业用途，可以任意修改源码不用开源，需要声明该产品使用了 Leaflet。<br />
-<a href="https://github.com/Leaflet/Leaflet" target="_blank" rel="noopener noreferrer">GitHub 开源地址<ExternalLinkIcon/></a> <a href="https://leafletjs.com/examples.html" target="_blank" rel="noopener noreferrer">官方教程<ExternalLinkIcon/></a> <a href="http://mars2d.cn/api/leaflet/reference_cn.html" target="_blank" rel="noopener noreferrer">API 文档<ExternalLinkIcon/></a><br />
-Leaflet 目前已经成熟近十多年，非常稳定，很少更新，当前最新版本是：<br />
-版本：（发布时间：）<a href="">下载 ZIP 包</a> 或 <a href="https://github.com/Leaflet/Leaflet/releases" target="_blank" rel="noopener noreferrer"> Gihub releases 列表<ExternalLinkIcon/></a><br />
+<a href="https://github.com/Leaflet/Leaflet" target="_blank" rel="noopener noreferrer">GitHub 开源地址<ExternalLinkIcon/></a> <a href="https://leafletjs.com/examples.html" target="_blank" rel="noopener noreferrer">官方教程<ExternalLinkIcon/></a> <a href="http://mars2d.cn/api/leaflet/reference_cn.html" target="_blank" rel="noopener noreferrer">API 文档<ExternalLinkIcon/></a><br /></p>
+<a class='text' target="_black" href="https://www.npmjs.com/package/leaflet">
+<img alt="Npm version" src="https://img.shields.io/npm/v/leaflet.svg?style=flat&amp;logo=npm&amp;label=版本号">
+</a>
+<a class='text' target="_black" href="https://www.npmjs.com/package/leaflet">
+<img alt="Npm downloads" src="https://img.shields.io/npm/dt/leaflet?style=flat&amp;logo=npm&amp;label=下载量">
+</a>
+<a class='text'>
+<img alt="GitHub stars" src="https://img.shields.io/github/stars/leaflet/leaflet?style=flat&amp;logo=github" class="medium-zoom-image">
+</a>
+<p>Leaflet 目前已经成熟近十多年，非常稳定，很少更新，当前最新版本是：<br />
+版本：（发布时间：）<a href="https://github.com/Leaflet/Leaflet/releases" target="_blank" rel="noopener noreferrer">下载 ZIP 包<ExternalLinkIcon/></a> 或 <a href="https://github.com/Leaflet/Leaflet/releases" target="_blank" rel="noopener noreferrer"> Gihub releases 列表<ExternalLinkIcon/></a><br />
 Leaflet 架构图，建议使用前先熟悉整体架构图，以便能够快速使用。 [新窗口查看大图]((/dev/img/jiagou/leaflet.png) ![架构图]((/dev/img/jiagou/leaflet.png)</p>
 <h2 id="_4-mars2d-与-leaflet-的关系" tabindex="-1"><a class="header-anchor" href="#_4-mars2d-与-leaflet-的关系" aria-hidden="true">#</a> 4. Mars2D 与 Leaflet 的关系</h2>
 <p>Mars2D 很多类都是直接继承 Leaflet 的类来扩展使用的，比如<code v-pre>mars2d.Map extends L.Map</code>,两个 SDK 是互相独立解耦的，可以理解为 mars2d 对 leaflet 做了扩展和提升，并重新封装、增加了很多功能。</p>

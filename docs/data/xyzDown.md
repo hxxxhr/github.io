@@ -5,6 +5,13 @@ date: 2022-09-22 15:39:13
 
 <h3>瓦片底图：在线地图的下载和使用</h3>
 
+<img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="../public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
+
 ## 1. XYZ 瓦片金字塔介绍
 
 ### 瓦片金字塔基本概念
@@ -50,8 +57,7 @@ map.addLayer(tileLayer);
 
 ### 3.1 下载 XYZ 瓦片数据
 
-下面我们已：[水经微图](http://www.rivermap.cn/down.html)为例来介绍下载的流程。<br />
- 1.运行程序后主界面如下，根据需要选择需要下载的地图。<br />
+下面我们已：[水经微图](http://www.rivermap.cn/down.html)为例来介绍下载的流程。<br /> 1.运行程序后主界面如下，根据需要选择需要下载的地图。<br />
 ![配置图][2]<br /> 2.我们一般是按行政区划下载地图，也可以绘制区域或其他方式下载，行政区域选择需要下载的地图范围，选择后图上会同步显示范围。 也可以点击地图左上角选择工具，选择感兴趣的区域， 支持按矩形. 不规则多边形，一般可以按省/市区域下载。<br />
 ![配置图][3]<br /> 3.点击下载，进入到下载参数设置界面。根据需要设置合适的任务名称，这里以下载标准金字塔为例。注意此处的级别从 1 开始，比地图中的级别多 1，即 19 级对应实际地图中第 18 级。<br />
 ![配置图][4]<br /> 4.点击“确定后”进入到下载界面，等待下载完成，右侧为下载时的状态<br />
@@ -64,7 +70,7 @@ map.addLayer(tileLayer);
 ### 3.2 发布二维数据为 HTTP 服务
 
 因为地图瓦片数据一般都很大，建议发布为独立服务。<br />
-可以参考教程[发布地图数据服务]()
+可以参考教程[发布地图数据服务](/data/server.md)
 
 - 可以将导出目录 exp 进行发布为服务`http://localhost:8888/mars2d-data/tile/anhui`
 - 发布为服务后，首先验证下随意找一张图片，可以在浏览器可以直接访问，正常加载， 如 `http://localhost:8888/mars2d-data/tile/anhui/8/210/102.jpg`

@@ -5,6 +5,13 @@ date: 2022-09-22 15:39:13
 
 <h3> 事件机制 </h3>
 
+<img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="../public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
+
 无论是前端系统，还是二维/二维 GIS 应用系统，都离不开各种事件的应用，尤其是鼠标的单击、双击事件。 Mars2D 内大部分类均支持事件的绑定、解绑、触发等统一的事件机制
 
 ## 1. 事件的相关类

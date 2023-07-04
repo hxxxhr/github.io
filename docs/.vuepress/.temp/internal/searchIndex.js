@@ -11,36 +11,36 @@ export const searchIndex = [
     "headers": [
       {
         "level": 2,
-        "title": "1. shp格式介绍",
-        "slug": "_1-shp格式介绍",
-        "link": "#_1-shp格式介绍",
+        "title": "1. shp 格式介绍",
+        "slug": "_1-shp-格式介绍",
+        "link": "#_1-shp-格式介绍",
         "children": []
       },
       {
         "level": 2,
-        "title": "2. shp数据来源",
-        "slug": "_2-shp数据来源",
-        "link": "#_2-shp数据来源",
+        "title": "2. shp 数据来源",
+        "slug": "_2-shp-数据来源",
+        "link": "#_2-shp-数据来源",
         "children": []
       },
       {
         "level": 2,
-        "title": "4. geojson格式介绍",
-        "slug": "_4-geojson格式介绍",
-        "link": "#_4-geojson格式介绍",
+        "title": "4. geojson 格式介绍",
+        "slug": "_4-geojson-格式介绍",
+        "link": "#_4-geojson-格式介绍",
         "children": []
       },
       {
         "level": 2,
-        "title": "5.处理工具：GDAL数据转换工具",
-        "slug": "_5-处理工具-gdal数据转换工具",
-        "link": "#_5-处理工具-gdal数据转换工具",
+        "title": "5.处理工具：GDAL 数据转换工具",
+        "slug": "_5-处理工具-gdal-数据转换工具",
+        "link": "#_5-处理工具-gdal-数据转换工具",
         "children": [
           {
             "level": 3,
-            "title": "5.1. 安装GDAL程序",
-            "slug": "_5-1-安装gdal程序",
-            "link": "#_5-1-安装gdal程序",
+            "title": "5.1. 安装 GDAL 程序",
+            "slug": "_5-1-安装-gdal-程序",
+            "link": "#_5-1-安装-gdal-程序",
             "children": []
           },
           {
@@ -52,9 +52,9 @@ export const searchIndex = [
           },
           {
             "level": 3,
-            "title": "5.3. 转换shp为geojson命令",
-            "slug": "_5-3-转换shp为geojson命令",
-            "link": "#_5-3-转换shp为geojson命令",
+            "title": "5.3. 转换 shp 为 geojson 命令",
+            "slug": "_5-3-转换-shp-为-geojson-命令",
+            "link": "#_5-3-转换-shp-为-geojson-命令",
             "children": []
           }
         ]
@@ -81,9 +81,9 @@ export const searchIndex = [
           },
           {
             "level": 3,
-            "title": "6.2 shp格式转为geojson",
-            "slug": "_6-2-shp格式转为geojson",
-            "link": "#_6-2-shp格式转为geojson",
+            "title": "6.2 shp 格式转为 geojson",
+            "slug": "_6-2-shp-格式转为-geojson",
+            "link": "#_6-2-shp-格式转为-geojson",
             "children": []
           },
           {
@@ -316,6 +316,666 @@ export const searchIndex = [
       }
     ],
     "path": "/data/xyzDown.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "加载外部资源的跨域问题",
+    "headers": [
+      {
+        "level": 2,
+        "title": "问题的现象",
+        "slug": "问题的现象",
+        "link": "#问题的现象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "解决方法及步骤",
+        "slug": "解决方法及步骤",
+        "link": "#解决方法及步骤",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "附：什么是资源跨域权限",
+        "slug": "附-什么是资源跨域权限",
+        "link": "#附-什么是资源跨域权限",
+        "children": [
+          {
+            "level": 3,
+            "title": "什么是 Access-Control-Allow-Origin",
+            "slug": "什么是-access-control-allow-origin",
+            "link": "#什么是-access-control-allow-origin",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "什么是资源跨域权限",
+            "slug": "什么是资源跨域权限",
+            "link": "#什么是资源跨域权限",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/issue/cors.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "其他",
+    "headers": [],
+    "path": "/issue/other.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第三方token访问有问题",
+    "headers": [
+      {
+        "level": 2,
+        "title": "问题的现象",
+        "slug": "问题的现象",
+        "link": "#问题的现象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "问题的原因",
+        "slug": "问题的原因",
+        "link": "#问题的原因",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "解决方法及步骤",
+        "slug": "解决方法及步骤",
+        "link": "#解决方法及步骤",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "1. 覆盖 mars2d.Token 中默认值",
+        "slug": "_1-覆盖-mars2d-token-中默认值",
+        "link": "#_1-覆盖-mars2d-token-中默认值",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2：批量替换修改 key 参数值",
+        "slug": "_2-批量替换修改-key-参数值",
+        "link": "#_2-批量替换修改-key-参数值",
+        "children": []
+      }
+    ],
+    "path": "/issue/token.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vue技术栈下注意事项",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 任意 Mars2D 对象放入到 store、data、computed 中后，会引起系统越用越卡。",
+        "slug": "_1-任意-mars2d-对象放入到-store、data、computed-中后-会引起系统越用越卡。",
+        "link": "#_1-任意-mars2d-对象放入到-store、data、computed-中后-会引起系统越用越卡。",
+        "children": [
+          {
+            "level": 3,
+            "title": "vue3 中可以使用 markRaw 来标识不进行双向绑定",
+            "slug": "vue3-中可以使用-markraw-来标识不进行双向绑定",
+            "link": "#vue3-中可以使用-markraw-来标识不进行双向绑定",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. 用完的对象之后要及时销毁，防止出现功能在界面上关闭但对象还驻留在内存中的情况。",
+        "slug": "_2-用完的对象之后要及时销毁-防止出现功能在界面上关闭但对象还驻留在内存中的情况。",
+        "link": "#_2-用完的对象之后要及时销毁-防止出现功能在界面上关闭但对象还驻留在内存中的情况。",
+        "children": []
+      }
+    ],
+    "path": "/issue/vue.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "视觉控制",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. map 中视角相关设置和方法",
+        "slug": "_1-map-中视角相关设置和方法",
+        "link": "#_1-map-中视角相关设置和方法",
+        "children": []
+      }
+    ],
+    "path": "/mapKnow/camera.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "地图控件",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Leaflet 原生控件",
+        "slug": "_1-leaflet-原生控件",
+        "link": "#_1-leaflet-原生控件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 平台内置控件",
+        "slug": "_2-平台内置控件",
+        "link": "#_2-平台内置控件",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1.在 map 地图对象上操作",
+            "slug": "_2-1-在-map-地图对象上操作",
+            "link": "#_2-1-在-map-地图对象上操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2.在 layer 图层对象上操作",
+            "slug": "_2-2-在-layer-图层对象上操作",
+            "link": "#_2-2-在-layer-图层对象上操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3. 在 graphic 矢量数据对象上操作",
+            "slug": "_2-3-在-graphic-矢量数据对象上操作",
+            "link": "#_2-3-在-graphic-矢量数据对象上操作",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. 平台控件",
+        "slug": "_3-平台控件",
+        "link": "#_3-平台控件",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 控件清单",
+            "slug": "_3-1-控件清单",
+            "link": "#_3-1-控件清单",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/mapKnow/control.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "坐标系及坐标变换",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 目前常用 GIS 坐标系",
+        "slug": "_1-目前常用-gis-坐标系",
+        "link": "#_1-目前常用-gis-坐标系",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1 栅格瓦片图层坐标系的设置",
+            "slug": "_1-1-栅格瓦片图层坐标系的设置",
+            "link": "#_1-1-栅格瓦片图层坐标系的设置",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. 国内的偏移坐标系",
+        "slug": "_2-国内的偏移坐标系",
+        "link": "#_2-国内的偏移坐标系",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 栅格瓦片图层偏移坐标系的设置",
+            "slug": "_2-1-栅格瓦片图层偏移坐标系的设置",
+            "link": "#_2-1-栅格瓦片图层偏移坐标系的设置",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 矢量数据坐标的加偏或纠偏转换",
+            "slug": "_2-2-矢量数据坐标的加偏或纠偏转换",
+            "link": "#_2-2-矢量数据坐标的加偏或纠偏转换",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. 平台内的坐标及坐标变换",
+        "slug": "_3-平台内的坐标及坐标变换",
+        "link": "#_3-平台内的坐标及坐标变换",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 支持多种形式坐标参数",
+            "slug": "_3-1-支持多种形式坐标参数",
+            "link": "#_3-1-支持多种形式坐标参数",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/mapKnow/crs.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "事件机制",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 事件的相关类",
+        "slug": "_1-事件的相关类",
+        "link": "#_1-事件的相关类",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 主要类的常用事件",
+        "slug": "_2-主要类的常用事件",
+        "link": "#_2-主要类的常用事件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.1 Map 类的事件",
+        "slug": "_2-1-map-类的事件",
+        "link": "#_2-1-map-类的事件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.2 图层类的事件",
+        "slug": "_2-2-图层类的事件",
+        "link": "#_2-2-图层类的事件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.3 矢量数据类的事件",
+        "slug": "_2-3-矢量数据类的事件",
+        "link": "#_2-3-矢量数据类的事件",
+        "children": []
+      }
+    ],
+    "path": "/mapKnow/event..html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "矢量图层Graphic",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 矢量数据对象",
+        "slug": "_1-矢量数据对象",
+        "link": "#_1-矢量数据对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 矢量数据的类别",
+        "slug": "_2-矢量数据的类别",
+        "link": "#_2-矢量数据的类别",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. 矢量数据的控制",
+        "slug": "_3-矢量数据的控制",
+        "link": "#_3-矢量数据的控制",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 矢量数据的事件",
+            "slug": "_2-1-矢量数据的事件",
+            "link": "#_2-1-矢量数据的事件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 矢量数据的 Popup、Tooltip 等控件",
+            "slug": "_2-2-矢量数据的-popup、tooltip-等控件",
+            "link": "#_2-2-矢量数据的-popup、tooltip-等控件",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/mapKnow/graphic.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "矢量图层",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 图层类型清单",
+        "slug": "_1-图层类型清单",
+        "link": "#_1-图层类型清单",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 矢量图层的创建及使用",
+        "slug": "_2-矢量图层的创建及使用",
+        "link": "#_2-矢量图层的创建及使用",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 快速开始(初始化 new Map 时传入)",
+            "slug": "_2-1-快速开始-初始化-new-map-时传入",
+            "link": "#_2-1-快速开始-初始化-new-map-时传入",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 代码中创建图层",
+            "slug": "_2-2-代码中创建图层",
+            "link": "#_2-2-代码中创建图层",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3 常用矢量图层类",
+        "slug": "_3-常用矢量图层类",
+        "link": "#_3-常用矢量图层类",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 GraphicLayer",
+            "slug": "_3-1-graphiclayer",
+            "link": "#_3-1-graphiclayer",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 GeoJsonLayer",
+            "slug": "_3-2-geojsonlayer",
+            "link": "#_3-2-geojsonlayer",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.1 WFS 图层",
+            "slug": "_3-1-wfs-图层",
+            "link": "#_3-1-wfs-图层",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/mapKnow/graphicLayer.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "地图图层layer",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 图层类",
+        "slug": "_1-图层类",
+        "link": "#_1-图层类",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1. 在 config.json 构造地图时涉及到的图层",
+            "slug": "_1-1-在-config-json-构造地图时涉及到的图层",
+            "link": "#_1-1-在-config-json-构造地图时涉及到的图层",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. 常用图层介绍",
+        "slug": "_2-常用图层介绍",
+        "link": "#_2-常用图层介绍",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 栅格瓦片图层",
+            "slug": "_2-1-栅格瓦片图层",
+            "link": "#_2-1-栅格瓦片图层",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 矢量数据图层",
+            "slug": "_2-2-矢量数据图层",
+            "link": "#_2-2-矢量数据图层",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 Group 图层组说明",
+            "slug": "_2-3-group-图层组说明",
+            "link": "#_2-3-group-图层组说明",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2.2 其他可视化图层",
+        "slug": "_2-2-其他可视化图层",
+        "link": "#_2-2-其他可视化图层",
+        "children": []
+      }
+    ],
+    "path": "/mapKnow/layer.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "地图场景 Map",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 地图场景初始化",
+        "slug": "_1-地图场景初始化",
+        "link": "#_1-地图场景初始化",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. mars2d.Map 类 参数说明",
+        "slug": "_2-mars2d-map-类-参数说明",
+        "link": "#_2-mars2d-map-类-参数说明",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 使用 json 配置文件记录参数快速创建地图场景",
+            "slug": "_2-1-使用-json-配置文件记录参数快速创建地图场景",
+            "link": "#_2-1-使用-json-配置文件记录参数快速创建地图场景",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. 默认视角参数",
+        "slug": "_3-默认视角参数",
+        "link": "#_3-默认视角参数",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.控件",
+        "slug": "_4-控件",
+        "link": "#_4-控件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. 栅格瓦片底图",
+        "slug": "_5-栅格瓦片底图",
+        "link": "#_5-栅格瓦片底图",
+        "children": [
+          {
+            "level": 3,
+            "title": "7.1 底图的图层参数",
+            "slug": "_7-1-底图的图层参数",
+            "link": "#_7-1-底图的图层参数",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.2 底图的 type 图层类型",
+            "slug": "_7-2-底图的-type-图层类型",
+            "link": "#_7-2-底图的-type-图层类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.3 更新底图",
+            "slug": "_7-3-更新底图",
+            "link": "#_7-3-更新底图",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "8. 可以叠加的图层",
+        "slug": "_8-可以叠加的图层",
+        "link": "#_8-可以叠加的图层",
+        "children": [
+          {
+            "level": 3,
+            "title": "8.1 可以叠加的图层",
+            "slug": "_8-1-可以叠加的图层",
+            "link": "#_8-1-可以叠加的图层",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "8.2 对图层的控制",
+            "slug": "_8-2-对图层的控制",
+            "link": "#_8-2-对图层的控制",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/mapKnow/map.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "分析功能",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. thing 的使用",
+        "slug": "_1-thing-的使用",
+        "link": "#_1-thing-的使用",
+        "children": []
+      }
+    ],
+    "path": "/mapKnow/thing.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "栅格瓦片图层",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 栅格瓦片介绍",
+        "slug": "_1-栅格瓦片介绍",
+        "link": "#_1-栅格瓦片介绍",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1 为什么要出现瓦片金字塔这个概念",
+            "slug": "_1-1-为什么要出现瓦片金字塔这个概念",
+            "link": "#_1-1-为什么要出现瓦片金字塔这个概念",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.2 栅格瓦片数据来源",
+            "slug": "_1-2-栅格瓦片数据来源",
+            "link": "#_1-2-栅格瓦片数据来源",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. 图层类型清单",
+        "slug": "_2-图层类型清单",
+        "link": "#_2-图层类型清单",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. 瓦片图层的参数调试",
+        "slug": "_3-瓦片图层的参数调试",
+        "link": "#_3-瓦片图层的参数调试",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. 瓦片图层的创建及使用",
+        "slug": "_4-瓦片图层的创建及使用",
+        "link": "#_4-瓦片图层的创建及使用",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1 快速开始(初始化 new Map 时传入)",
+            "slug": "_4-1-快速开始-初始化-new-map-时传入",
+            "link": "#_4-1-快速开始-初始化-new-map-时传入",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2 代码中创建图层",
+            "slug": "_4-2-代码中创建图层",
+            "link": "#_4-2-代码中创建图层",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "5. 加载 XYZ 数据步骤",
+        "slug": "_5-加载-xyz-数据步骤",
+        "link": "#_5-加载-xyz-数据步骤",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.1 运行效果",
+        "slug": "_5-1-运行效果",
+        "link": "#_5-1-运行效果",
+        "children": []
+      }
+    ],
+    "path": "/mapKnow/tileLayer.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -882,130 +1542,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "加载外部资源的跨域问题",
-    "headers": [
-      {
-        "level": 2,
-        "title": "问题的现象",
-        "slug": "问题的现象",
-        "link": "#问题的现象",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "解决方法及步骤",
-        "slug": "解决方法及步骤",
-        "link": "#解决方法及步骤",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "附：什么是资源跨域权限",
-        "slug": "附-什么是资源跨域权限",
-        "link": "#附-什么是资源跨域权限",
-        "children": [
-          {
-            "level": 3,
-            "title": "什么是 Access-Control-Allow-Origin",
-            "slug": "什么是-access-control-allow-origin",
-            "link": "#什么是-access-control-allow-origin",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "什么是资源跨域权限",
-            "slug": "什么是资源跨域权限",
-            "link": "#什么是资源跨域权限",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/issue/cors.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "其他",
-    "headers": [],
-    "path": "/issue/other.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第三方token访问有问题",
-    "headers": [
-      {
-        "level": 2,
-        "title": "问题的现象",
-        "slug": "问题的现象",
-        "link": "#问题的现象",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "问题的原因",
-        "slug": "问题的原因",
-        "link": "#问题的原因",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "解决方法及步骤",
-        "slug": "解决方法及步骤",
-        "link": "#解决方法及步骤",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "1. 覆盖 mars2d.Token 中默认值",
-        "slug": "_1-覆盖-mars2d-token-中默认值",
-        "link": "#_1-覆盖-mars2d-token-中默认值",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2：批量替换修改 key 参数值",
-        "slug": "_2-批量替换修改-key-参数值",
-        "link": "#_2-批量替换修改-key-参数值",
-        "children": []
-      }
-    ],
-    "path": "/issue/token.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "vue技术栈下注意事项",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 任意 Mars2D 对象放入到 store、data、computed 中后，会引起系统越用越卡。",
-        "slug": "_1-任意-mars2d-对象放入到-store、data、computed-中后-会引起系统越用越卡。",
-        "link": "#_1-任意-mars2d-对象放入到-store、data、computed-中后-会引起系统越用越卡。",
-        "children": [
-          {
-            "level": 3,
-            "title": "vue3 中可以使用 markRaw 来标识不进行双向绑定",
-            "slug": "vue3-中可以使用-markraw-来标识不进行双向绑定",
-            "link": "#vue3-中可以使用-markraw-来标识不进行双向绑定",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. 用完的对象之后要及时销毁，防止出现功能在界面上关闭但对象还驻留在内存中的情况。",
-        "slug": "_2-用完的对象之后要及时销毁-防止出现功能在界面上关闭但对象还驻留在内存中的情况。",
-        "link": "#_2-用完的对象之后要及时销毁-防止出现功能在界面上关闭但对象还驻留在内存中的情况。",
-        "children": []
-      }
-    ],
-    "path": "/issue/vue.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "整体架构及介绍",
     "headers": [
       {
@@ -1075,9 +1611,9 @@ export const searchIndex = [
       },
       {
         "level": 2,
-        "title": "2. config.json常见修改",
-        "slug": "_2-config-json常见修改",
-        "link": "#_2-config-json常见修改",
+        "title": "2. config.json 常见修改",
+        "slug": "_2-config-json-常见修改",
+        "link": "#_2-config-json-常见修改",
         "children": [
           {
             "level": 3,
@@ -1125,45 +1661,38 @@ export const searchIndex = [
         "children": [
           {
             "level": 3,
-            "title": "2.1 可以选用 unpkg.com的CDN服务",
-            "slug": "_2-1-可以选用-unpkg-com的cdn服务",
-            "link": "#_2-1-可以选用-unpkg-com的cdn服务",
+            "title": "2.1 可以选用 unpkg.com的 CDN 服务",
+            "slug": "_2-1-可以选用-unpkg-com的-cdn-服务",
+            "link": "#_2-1-可以选用-unpkg-com的-cdn-服务",
             "children": []
           },
           {
             "level": 3,
-            "title": "2.2 可以选用jsDelivr的CDN服务",
-            "slug": "_2-2-可以选用jsdelivr的cdn服务",
-            "link": "#_2-2-可以选用jsdelivr的cdn服务",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3 可以选用Mars2D官网的CDN服务",
-            "slug": "_2-3-可以选用mars2d官网的cdn服务",
-            "link": "#_2-3-可以选用mars2d官网的cdn服务",
+            "title": "2.2 可以选用jsDelivr的 CDN 服务",
+            "slug": "_2-2-可以选用jsdelivr的-cdn-服务",
+            "link": "#_2-2-可以选用jsdelivr的-cdn-服务",
             "children": []
           }
         ]
       },
       {
         "level": 2,
-        "title": "3. 从 Mars2D官网 下载获取",
-        "slug": "_3-从-mars2d官网-下载获取",
-        "link": "#_3-从-mars2d官网-下载获取",
+        "title": "3. 从 Mars2D 官网 下载获取",
+        "slug": "_3-从-mars2d-官网-下载获取",
+        "link": "#_3-从-mars2d-官网-下载获取",
         "children": [
           {
             "level": 3,
-            "title": "3.1 类似CDN的head静态资源方式引入",
-            "slug": "_3-1-类似cdn的head静态资源方式引入",
-            "link": "#_3-1-类似cdn的head静态资源方式引入",
+            "title": "3.1 类似 CDN 的 head 静态资源方式引入",
+            "slug": "_3-1-类似-cdn-的-head-静态资源方式引入",
+            "link": "#_3-1-类似-cdn-的-head-静态资源方式引入",
             "children": []
           },
           {
             "level": 3,
-            "title": "3.2 类似npm的import方式导入",
-            "slug": "_3-2-类似npm的import方式导入",
-            "link": "#_3-2-类似npm的import方式导入",
+            "title": "3.2 类似 npm 的 import 方式导入",
+            "slug": "_3-2-类似-npm-的-import-方式导入",
+            "link": "#_3-2-类似-npm-的-import-方式导入",
             "children": []
           }
         ]
@@ -1280,542 +1809,6 @@ export const searchIndex = [
       }
     ],
     "path": "/start/jcxm.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "视觉控制",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. map 中视角相关设置和方法",
-        "slug": "_1-map-中视角相关设置和方法",
-        "link": "#_1-map-中视角相关设置和方法",
-        "children": []
-      }
-    ],
-    "path": "/mapKnow/camera.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "地图控件",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Leaflet 原生控件",
-        "slug": "_1-leaflet-原生控件",
-        "link": "#_1-leaflet-原生控件",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 平台内置控件",
-        "slug": "_2-平台内置控件",
-        "link": "#_2-平台内置控件",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1.在 map 地图对象上操作",
-            "slug": "_2-1-在-map-地图对象上操作",
-            "link": "#_2-1-在-map-地图对象上操作",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2.在 layer 图层对象上操作",
-            "slug": "_2-2-在-layer-图层对象上操作",
-            "link": "#_2-2-在-layer-图层对象上操作",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3. 在 graphic 矢量数据对象上操作",
-            "slug": "_2-3-在-graphic-矢量数据对象上操作",
-            "link": "#_2-3-在-graphic-矢量数据对象上操作",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3. 平台控件",
-        "slug": "_3-平台控件",
-        "link": "#_3-平台控件",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 控件清单",
-            "slug": "_3-1-控件清单",
-            "link": "#_3-1-控件清单",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/mapKnow/control.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "坐标系及坐标变换",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 目前常用 GIS 坐标系",
-        "slug": "_1-目前常用-gis-坐标系",
-        "link": "#_1-目前常用-gis-坐标系",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 栅格瓦片图层坐标系的设置",
-            "slug": "_1-1-栅格瓦片图层坐标系的设置",
-            "link": "#_1-1-栅格瓦片图层坐标系的设置",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. 国内的偏移坐标系",
-        "slug": "_2-国内的偏移坐标系",
-        "link": "#_2-国内的偏移坐标系",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 栅格瓦片图层偏移坐标系的设置",
-            "slug": "_2-1-栅格瓦片图层偏移坐标系的设置",
-            "link": "#_2-1-栅格瓦片图层偏移坐标系的设置",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 矢量数据坐标的加偏或纠偏转换",
-            "slug": "_2-2-矢量数据坐标的加偏或纠偏转换",
-            "link": "#_2-2-矢量数据坐标的加偏或纠偏转换",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3. 平台内的坐标及坐标变换",
-        "slug": "_3-平台内的坐标及坐标变换",
-        "link": "#_3-平台内的坐标及坐标变换",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 支持多种形式坐标参数",
-            "slug": "_3-1-支持多种形式坐标参数",
-            "link": "#_3-1-支持多种形式坐标参数",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/mapKnow/crs.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "事件机制",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 事件的相关类",
-        "slug": "_1-事件的相关类",
-        "link": "#_1-事件的相关类",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 主要类的常用事件",
-        "slug": "_2-主要类的常用事件",
-        "link": "#_2-主要类的常用事件",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.1 Map 类的事件",
-        "slug": "_2-1-map-类的事件",
-        "link": "#_2-1-map-类的事件",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.2 图层类的事件",
-        "slug": "_2-2-图层类的事件",
-        "link": "#_2-2-图层类的事件",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.3 矢量数据类的事件",
-        "slug": "_2-3-矢量数据类的事件",
-        "link": "#_2-3-矢量数据类的事件",
-        "children": []
-      }
-    ],
-    "path": "/mapKnow/event..html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "矢量图层Graphic",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 矢量数据对象",
-        "slug": "_1-矢量数据对象",
-        "link": "#_1-矢量数据对象",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 矢量数据的类别",
-        "slug": "_2-矢量数据的类别",
-        "link": "#_2-矢量数据的类别",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. 矢量数据的控制",
-        "slug": "_3-矢量数据的控制",
-        "link": "#_3-矢量数据的控制",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 矢量数据的事件",
-            "slug": "_2-1-矢量数据的事件",
-            "link": "#_2-1-矢量数据的事件",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 矢量数据的 Popup、Tooltip 等控件",
-            "slug": "_2-2-矢量数据的-popup、tooltip-等控件",
-            "link": "#_2-2-矢量数据的-popup、tooltip-等控件",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/mapKnow/graphic.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "矢量图层",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 图层类型清单",
-        "slug": "_1-图层类型清单",
-        "link": "#_1-图层类型清单",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 矢量图层的创建及使用",
-        "slug": "_2-矢量图层的创建及使用",
-        "link": "#_2-矢量图层的创建及使用",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 快速开始(初始化 new Map 时传入)",
-            "slug": "_2-1-快速开始-初始化-new-map-时传入",
-            "link": "#_2-1-快速开始-初始化-new-map-时传入",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 代码中创建图层",
-            "slug": "_2-2-代码中创建图层",
-            "link": "#_2-2-代码中创建图层",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3 常用矢量图层类",
-        "slug": "_3-常用矢量图层类",
-        "link": "#_3-常用矢量图层类",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 GraphicLayer",
-            "slug": "_3-1-graphiclayer",
-            "link": "#_3-1-graphiclayer",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 GeoJsonLayer",
-            "slug": "_3-2-geojsonlayer",
-            "link": "#_3-2-geojsonlayer",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.1 WFS 图层",
-            "slug": "_3-1-wfs-图层",
-            "link": "#_3-1-wfs-图层",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/mapKnow/graphicLayer.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "地图图层layer",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 图层类",
-        "slug": "_1-图层类",
-        "link": "#_1-图层类",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1. 在 config.json 构造地图时涉及到的图层",
-            "slug": "_1-1-在-config-json-构造地图时涉及到的图层",
-            "link": "#_1-1-在-config-json-构造地图时涉及到的图层",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. 常用图层介绍",
-        "slug": "_2-常用图层介绍",
-        "link": "#_2-常用图层介绍",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 栅格瓦片图层",
-            "slug": "_2-1-栅格瓦片图层",
-            "link": "#_2-1-栅格瓦片图层",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 矢量数据图层",
-            "slug": "_2-2-矢量数据图层",
-            "link": "#_2-2-矢量数据图层",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3 Group 图层组说明",
-            "slug": "_2-3-group-图层组说明",
-            "link": "#_2-3-group-图层组说明",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2.2 其他可视化图层",
-        "slug": "_2-2-其他可视化图层",
-        "link": "#_2-2-其他可视化图层",
-        "children": []
-      }
-    ],
-    "path": "/mapKnow/layer.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "地图场景 Map",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 地图场景初始化",
-        "slug": "_1-地图场景初始化",
-        "link": "#_1-地图场景初始化",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. mars2d.Map 类 参数说明",
-        "slug": "_2-mars2d-map-类-参数说明",
-        "link": "#_2-mars2d-map-类-参数说明",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 使用 json 配置文件记录参数快速创建地图场景",
-            "slug": "_2-1-使用-json-配置文件记录参数快速创建地图场景",
-            "link": "#_2-1-使用-json-配置文件记录参数快速创建地图场景",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3. 默认视角参数",
-        "slug": "_3-默认视角参数",
-        "link": "#_3-默认视角参数",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.控件",
-        "slug": "_4-控件",
-        "link": "#_4-控件",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5. 栅格瓦片底图",
-        "slug": "_5-栅格瓦片底图",
-        "link": "#_5-栅格瓦片底图",
-        "children": [
-          {
-            "level": 3,
-            "title": "7.1 底图的图层参数",
-            "slug": "_7-1-底图的图层参数",
-            "link": "#_7-1-底图的图层参数",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.2 底图的 type 图层类型",
-            "slug": "_7-2-底图的-type-图层类型",
-            "link": "#_7-2-底图的-type-图层类型",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.3 更新底图",
-            "slug": "_7-3-更新底图",
-            "link": "#_7-3-更新底图",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "8. 可以叠加的图层",
-        "slug": "_8-可以叠加的图层",
-        "link": "#_8-可以叠加的图层",
-        "children": [
-          {
-            "level": 3,
-            "title": "8.1 可以叠加的图层",
-            "slug": "_8-1-可以叠加的图层",
-            "link": "#_8-1-可以叠加的图层",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "8.2 对图层的控制",
-            "slug": "_8-2-对图层的控制",
-            "link": "#_8-2-对图层的控制",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/mapKnow/map.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "分析功能",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. thing 的使用",
-        "slug": "_1-thing-的使用",
-        "link": "#_1-thing-的使用",
-        "children": []
-      }
-    ],
-    "path": "/mapKnow/thing.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "栅格瓦片图层",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 栅格瓦片介绍",
-        "slug": "_1-栅格瓦片介绍",
-        "link": "#_1-栅格瓦片介绍",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 为什么要出现瓦片金字塔这个概念",
-            "slug": "_1-1-为什么要出现瓦片金字塔这个概念",
-            "link": "#_1-1-为什么要出现瓦片金字塔这个概念",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.2 栅格瓦片数据来源",
-            "slug": "_1-2-栅格瓦片数据来源",
-            "link": "#_1-2-栅格瓦片数据来源",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. 图层类型清单",
-        "slug": "_2-图层类型清单",
-        "link": "#_2-图层类型清单",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. 瓦片图层的参数调试",
-        "slug": "_3-瓦片图层的参数调试",
-        "link": "#_3-瓦片图层的参数调试",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. 瓦片图层的创建及使用",
-        "slug": "_4-瓦片图层的创建及使用",
-        "link": "#_4-瓦片图层的创建及使用",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 快速开始(初始化 new Map 时传入)",
-            "slug": "_4-1-快速开始-初始化-new-map-时传入",
-            "link": "#_4-1-快速开始-初始化-new-map-时传入",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.2 代码中创建图层",
-            "slug": "_4-2-代码中创建图层",
-            "link": "#_4-2-代码中创建图层",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "5. 加载 XYZ 数据步骤",
-        "slug": "_5-加载-xyz-数据步骤",
-        "link": "#_5-加载-xyz-数据步骤",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.1 运行效果",
-        "slug": "_5-1-运行效果",
-        "link": "#_5-1-运行效果",
-        "children": []
-      }
-    ],
-    "path": "/mapKnow/tileLayer.html",
     "pathLocale": "/",
     "extraFields": []
   },

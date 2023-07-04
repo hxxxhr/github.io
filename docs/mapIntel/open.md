@@ -5,7 +5,15 @@ date: 2022-09-22 15:39:13
 
 <h3> 开源仓库清单 </h3>
 
-![配置图][1] <br />
+<img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="../public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
+
+![开源仓库配置图][1] <br />
+
 <p align="center">🌎 一款免费的二维地图客户端开发平台</p>
 
 <p align="center">

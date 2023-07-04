@@ -1,4 +1,10 @@
 <template><div><h3> 开发语言 </h3>
+<img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
 <p>Mars2D 所涉及的开发，是属于 Web 前端 的开发范畴。</p>
 <h2 id="_1-mars2d-所涉及的知识领域" tabindex="-1"><a class="header-anchor" href="#_1-mars2d-所涉及的知识领域" aria-hidden="true">#</a> 1. Mars2D 所涉及的知识领域</h2>
 <p>Mars2D 是涉及两个个知识领域 :Web 前端、地理信息系统（GIS）的跨界 SDK</p>
@@ -43,7 +49,7 @@
 <h3 id="_2-1-web-前端基础知识学习" tabindex="-1"><a class="header-anchor" href="#_2-1-web-前端基础知识学习" aria-hidden="true">#</a> 2.1 Web 前端基础知识学习</h3>
 <p>因为这些知识都是 Web 前端范畴下的知识内容，我们就不在此班门弄斧了，具体请参考其他各大社区和网站自行学习相关基础知识。</p>
 <h3 id="_2-2-各开发语言技术栈下的开源代码" tabindex="-1"><a class="header-anchor" href="#_2-2-各开发语言技术栈下的开源代码" aria-hidden="true">#</a> 2.2 各开发语言技术栈下的开源代码</h3>
-<p>参考<a href="">Mars2D 开源仓库清单</a>下载对应技术栈的代码进行学习或使用。目前主要分<code v-pre>原生JS</code>、<code v-pre>Vue</code>、<code v-pre>React</code>、<code v-pre>Angular</code> 四大类。</p>
+<p>参考<RouterLink to="/mapIntel/open.html">Mars2D 开源仓库清单</RouterLink>下载对应技术栈的代码进行学习或使用。目前主要分<code v-pre>原生JS</code>、<code v-pre>Vue</code>、<code v-pre>React</code>、<code v-pre>Angular</code> 四大类。</p>
 </div></template>
 
 

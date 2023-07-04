@@ -1,4 +1,10 @@
 <template><div><h3> Mars2D版本及更新日志 </h3>
+<img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
 <h4 id="_1-mars2d-的版本" tabindex="-1"><a class="header-anchor" href="#_1-mars2d-的版本" aria-hidden="true">#</a> 1. Mars2D 的版本</h4>
 <p>Mars2D 的版本号包括三个部分，比如 v3.2.1 版本中，<strong>主版本号是 3，大版本号是 2，小版本号是 1</strong>
 版本号是根据本次发布中包含的变更的级别进行递增的。</p>

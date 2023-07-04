@@ -1,4 +1,10 @@
 <template><div><h3>整体架构及介绍</h3>
+<img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
+<i class='text'>Mars2D</i>
+<img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
+<i class='text'>30/6/2023</i>
+<img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
+<i class='text'>0</i>
 <h2 id="_1-mars2d-的组成" tabindex="-1"><a class="header-anchor" href="#_1-mars2d-的组成" aria-hidden="true">#</a> 1. Mars2D 的组成</h2>
 <p>平台主要由： SDK 类库、功能示例、项目模板 共 3 大部分组成。这些资料均免费开放，并可下载离线本地使用。</p>
 <table>
@@ -13,19 +19,19 @@
 <tbody>
 <tr>
 <td style="text-align:center">SDK 类库</td>
-<td style="text-align:center"><a href="">免费下载</a></td>
+<td style="text-align:center"><RouterLink to="/start/download.html">免费下载</RouterLink></td>
 <td style="text-align:center"><a href="http://mars2d.cn/apidoc.html#Map" target="_blank" rel="noopener noreferrer">API 文档<ExternalLinkIcon/></a></td>
 <td style="text-align:center">免费无限制使用</td>
 </tr>
 <tr>
 <td style="text-align:center">功能示例</td>
-<td style="text-align:center"><a href="">Github 开源</a>、<a href="http://marsgis.cn/example.html" target="_blank" rel="noopener noreferrer">在线体验<ExternalLinkIcon/></a></td>
+<td style="text-align:center"><RouterLink to="/mapIntel/open.html">Github 开源</RouterLink>、<a href="http://marsgis.cn/example.html" target="_blank" rel="noopener noreferrer">在线体验<ExternalLinkIcon/></a></td>
 <td style="text-align:center"><a href="http://mars2d.cn/example.html" target="_blank" rel="noopener noreferrer">功能清单(页面左下侧)<ExternalLinkIcon/></a></td>
 <td style="text-align:center">包含 400+功能示例及源码</td>
 </tr>
 <tr>
 <td style="text-align:center">项目模板</td>
-<td style="text-align:center"><a href="">Github 开源</a></td>
+<td style="text-align:center"><RouterLink to="/mapIntel/open.html">Github 开源</RouterLink></td>
 <td style="text-align:center"></td>
 <td style="text-align:center">面向不同技术栈做的项目模板</td>
 </tr>
@@ -50,9 +56,9 @@
 <tbody>
 <tr>
 <td style="text-align:center">mars2d</td>
-<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_black" href="https://www.npmjs.com/package/mars2d"><img alt="Npm version" src="https://img.shields.io/npm/v/mars2d.svg?style=flat&amp;logo=npm&amp;label="></a></td>
 <td style="text-align:center"><a href="https://www.jsdelivr.com/package/npm/mars2d" target="_blank" rel="noopener noreferrer">cdn<ExternalLinkIcon/></a></td>
-<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_black" href="https://www.npmjs.com/package/mars2d"><img alt="Npm downloads" src="https://img.shields.io/npm/dt/mars2d?style=flat&amp;logo=npm"></a></td>
 <td style="text-align:center">Mars2D 主类库</td>
 </tr>
 </tbody>
@@ -72,30 +78,30 @@
 <tbody>
 <tr>
 <td style="text-align:center">mars2d-echarts</td>
-<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_black" href="https://www.npmjs.com/package/mars2d-echarts"><img alt="Npm version" src="https://img.shields.io/npm/v/mars2d-echarts.svg?style=flat&amp;logo=npm&amp;label="></a></td>
 <td style="text-align:center"><a href="https://www.jsdelivr.com/package/npm/mars2d-echarts" target="_blank" rel="noopener noreferrer">cdn<ExternalLinkIcon/></a></td>
-<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_black" href="https://www.npmjs.com/package/mars2d-echarts"><img alt="Npm downloads" src="https://img.shields.io/npm/dt/mars2d-echarts?style=flat&amp;logo=npm"></a></td>
 <td style="text-align:center">echarts 可视化插件</td>
 </tr>
 <tr>
 <td style="text-align:center">mars2d-mapv</td>
-<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_black" href="https://www.npmjs.com/package/mars2d-mapv"><img alt="Npm version" src="https://img.shields.io/npm/v/mars2d-mapv.svg?style=flat&amp;logo=npm&amp;label="></a></td>
 <td style="text-align:center"><a href="https://www.jsdelivr.com/package/npm/mars2d-mapv" target="_blank" rel="noopener noreferrer">cdn<ExternalLinkIcon/></a></td>
-<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_black" href="https://www.npmjs.com/package/mars2d-mapv"><img alt="Npm downloads" src="https://img.shields.io/npm/dt/mars2d-mapv?style=flat&amp;logo=npm"></a></td>
 <td style="text-align:center">mapv 可视化插件</td>
 </tr>
 <tr>
 <td style="text-align:center">mars2d-esri</td>
-<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_black" href="https://www.npmjs.com/package/mars2d-esri"><img alt="Npm version" src="https://img.shields.io/npm/v/mars2d-esri.svg?style=flat&amp;logo=npm&amp;label="></a></td>
 <td style="text-align:center"><a href="https://www.jsdelivr.com/package/npm/mars2d-esri" target="_blank" rel="noopener noreferrer">cdn<ExternalLinkIcon/></a></td>
-<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_black" href="https://www.npmjs.com/package/mars2d-esri"><img alt="Npm downloads" src="https://img.shields.io/npm/dt/mars2d-esri?style=flat&amp;logo=npm"></a></td>
 <td style="text-align:center">esri 服务插件</td>
 </tr>
 <tr>
 <td style="text-align:center">mars2d-widget</td>
-<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_black" href="https://www.npmjs.com/package/mars2d-widget"><img alt="Npm version" src="https://img.shields.io/npm/v/mars2d-widget.svg?style=flat&amp;logo=npm&amp;label="></a></td>
 <td style="text-align:center"><a href="https://www.jsdelivr.com/package/npm/mars2d-widget" target="_blank" rel="noopener noreferrer">cdn<ExternalLinkIcon/></a></td>
-<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_black" href="https://www.npmjs.com/package/mars2d-widget"><img alt="Npm downloads" src="https://img.shields.io/npm/dt/mars2d-widget?style=flat&amp;logo=npm"></a></td>
 <td style="text-align:center">原生 js 下的 widget 模块化插件</td>
 </tr>
 </tbody>
@@ -110,9 +116,9 @@ mars2d<span class="token punctuation">.</span>thing<span class="token punctuatio
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>其他类都在 mars2d 一级包下面</p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code>mars2d<span class="token punctuation">.</span><span class="token operator">*</span>  <span class="token comment">//比如 mars2d.PointUtil</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2 id="_3-功能示例" tabindex="-1"><a class="header-anchor" href="#_3-功能示例" aria-hidden="true">#</a> 3. 功能示例</h2>
-<p>见<a href="">下载运行功能示例</a>章节介绍。</p>
+<p>见<a href="http://mars2d.cn/doc.html#project/example-vue" target="_blank" rel="noopener noreferrer">下载运行功能示例<ExternalLinkIcon/></a>章节介绍。</p>
 <h2 id="_4-项目模板" tabindex="-1"><a class="header-anchor" href="#_4-项目模板" aria-hidden="true">#</a> 4. 项目模板</h2>
-<p>见<a href="">基础项目 Vue 版介绍</a>章节介绍。</p>
+<p>见<a href="http://mars2d.cn/doc.html#project/jcxm-vue" target="_blank" rel="noopener noreferrer">基础项目 Vue 版介绍<ExternalLinkIcon/></a>章节介绍。</p>
 </div></template>
 
 
