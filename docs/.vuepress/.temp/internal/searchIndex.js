@@ -444,542 +444,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "视觉控制",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. map 中视角相关设置和方法",
-        "slug": "_1-map-中视角相关设置和方法",
-        "link": "#_1-map-中视角相关设置和方法",
-        "children": []
-      }
-    ],
-    "path": "/mapKnow/camera.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "地图控件",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Leaflet 原生控件",
-        "slug": "_1-leaflet-原生控件",
-        "link": "#_1-leaflet-原生控件",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 平台内置控件",
-        "slug": "_2-平台内置控件",
-        "link": "#_2-平台内置控件",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1.在 map 地图对象上操作",
-            "slug": "_2-1-在-map-地图对象上操作",
-            "link": "#_2-1-在-map-地图对象上操作",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2.在 layer 图层对象上操作",
-            "slug": "_2-2-在-layer-图层对象上操作",
-            "link": "#_2-2-在-layer-图层对象上操作",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3. 在 graphic 矢量数据对象上操作",
-            "slug": "_2-3-在-graphic-矢量数据对象上操作",
-            "link": "#_2-3-在-graphic-矢量数据对象上操作",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3. 平台控件",
-        "slug": "_3-平台控件",
-        "link": "#_3-平台控件",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 控件清单",
-            "slug": "_3-1-控件清单",
-            "link": "#_3-1-控件清单",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/mapKnow/control.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "坐标系及坐标变换",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 目前常用 GIS 坐标系",
-        "slug": "_1-目前常用-gis-坐标系",
-        "link": "#_1-目前常用-gis-坐标系",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 栅格瓦片图层坐标系的设置",
-            "slug": "_1-1-栅格瓦片图层坐标系的设置",
-            "link": "#_1-1-栅格瓦片图层坐标系的设置",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. 国内的偏移坐标系",
-        "slug": "_2-国内的偏移坐标系",
-        "link": "#_2-国内的偏移坐标系",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 栅格瓦片图层偏移坐标系的设置",
-            "slug": "_2-1-栅格瓦片图层偏移坐标系的设置",
-            "link": "#_2-1-栅格瓦片图层偏移坐标系的设置",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 矢量数据坐标的加偏或纠偏转换",
-            "slug": "_2-2-矢量数据坐标的加偏或纠偏转换",
-            "link": "#_2-2-矢量数据坐标的加偏或纠偏转换",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3. 平台内的坐标及坐标变换",
-        "slug": "_3-平台内的坐标及坐标变换",
-        "link": "#_3-平台内的坐标及坐标变换",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 支持多种形式坐标参数",
-            "slug": "_3-1-支持多种形式坐标参数",
-            "link": "#_3-1-支持多种形式坐标参数",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/mapKnow/crs.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "事件机制",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 事件的相关类",
-        "slug": "_1-事件的相关类",
-        "link": "#_1-事件的相关类",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 主要类的常用事件",
-        "slug": "_2-主要类的常用事件",
-        "link": "#_2-主要类的常用事件",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.1 Map 类的事件",
-        "slug": "_2-1-map-类的事件",
-        "link": "#_2-1-map-类的事件",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.2 图层类的事件",
-        "slug": "_2-2-图层类的事件",
-        "link": "#_2-2-图层类的事件",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.3 矢量数据类的事件",
-        "slug": "_2-3-矢量数据类的事件",
-        "link": "#_2-3-矢量数据类的事件",
-        "children": []
-      }
-    ],
-    "path": "/mapKnow/event..html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "矢量图层Graphic",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 矢量数据对象",
-        "slug": "_1-矢量数据对象",
-        "link": "#_1-矢量数据对象",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 矢量数据的类别",
-        "slug": "_2-矢量数据的类别",
-        "link": "#_2-矢量数据的类别",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. 矢量数据的控制",
-        "slug": "_3-矢量数据的控制",
-        "link": "#_3-矢量数据的控制",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 矢量数据的事件",
-            "slug": "_2-1-矢量数据的事件",
-            "link": "#_2-1-矢量数据的事件",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 矢量数据的 Popup、Tooltip 等控件",
-            "slug": "_2-2-矢量数据的-popup、tooltip-等控件",
-            "link": "#_2-2-矢量数据的-popup、tooltip-等控件",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/mapKnow/graphic.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "矢量图层",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 图层类型清单",
-        "slug": "_1-图层类型清单",
-        "link": "#_1-图层类型清单",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 矢量图层的创建及使用",
-        "slug": "_2-矢量图层的创建及使用",
-        "link": "#_2-矢量图层的创建及使用",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 快速开始(初始化 new Map 时传入)",
-            "slug": "_2-1-快速开始-初始化-new-map-时传入",
-            "link": "#_2-1-快速开始-初始化-new-map-时传入",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 代码中创建图层",
-            "slug": "_2-2-代码中创建图层",
-            "link": "#_2-2-代码中创建图层",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3 常用矢量图层类",
-        "slug": "_3-常用矢量图层类",
-        "link": "#_3-常用矢量图层类",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 GraphicLayer",
-            "slug": "_3-1-graphiclayer",
-            "link": "#_3-1-graphiclayer",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 GeoJsonLayer",
-            "slug": "_3-2-geojsonlayer",
-            "link": "#_3-2-geojsonlayer",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.1 WFS 图层",
-            "slug": "_3-1-wfs-图层",
-            "link": "#_3-1-wfs-图层",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/mapKnow/graphicLayer.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "地图图层layer",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 图层类",
-        "slug": "_1-图层类",
-        "link": "#_1-图层类",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1. 在 config.json 构造地图时涉及到的图层",
-            "slug": "_1-1-在-config-json-构造地图时涉及到的图层",
-            "link": "#_1-1-在-config-json-构造地图时涉及到的图层",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. 常用图层介绍",
-        "slug": "_2-常用图层介绍",
-        "link": "#_2-常用图层介绍",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 栅格瓦片图层",
-            "slug": "_2-1-栅格瓦片图层",
-            "link": "#_2-1-栅格瓦片图层",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 矢量数据图层",
-            "slug": "_2-2-矢量数据图层",
-            "link": "#_2-2-矢量数据图层",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3 Group 图层组说明",
-            "slug": "_2-3-group-图层组说明",
-            "link": "#_2-3-group-图层组说明",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2.2 其他可视化图层",
-        "slug": "_2-2-其他可视化图层",
-        "link": "#_2-2-其他可视化图层",
-        "children": []
-      }
-    ],
-    "path": "/mapKnow/layer.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "地图场景 Map",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 地图场景初始化",
-        "slug": "_1-地图场景初始化",
-        "link": "#_1-地图场景初始化",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. mars2d.Map 类 参数说明",
-        "slug": "_2-mars2d-map-类-参数说明",
-        "link": "#_2-mars2d-map-类-参数说明",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 使用 json 配置文件记录参数快速创建地图场景",
-            "slug": "_2-1-使用-json-配置文件记录参数快速创建地图场景",
-            "link": "#_2-1-使用-json-配置文件记录参数快速创建地图场景",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3. 默认视角参数",
-        "slug": "_3-默认视角参数",
-        "link": "#_3-默认视角参数",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.控件",
-        "slug": "_4-控件",
-        "link": "#_4-控件",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5. 栅格瓦片底图",
-        "slug": "_5-栅格瓦片底图",
-        "link": "#_5-栅格瓦片底图",
-        "children": [
-          {
-            "level": 3,
-            "title": "7.1 底图的图层参数",
-            "slug": "_7-1-底图的图层参数",
-            "link": "#_7-1-底图的图层参数",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.2 底图的 type 图层类型",
-            "slug": "_7-2-底图的-type-图层类型",
-            "link": "#_7-2-底图的-type-图层类型",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.3 更新底图",
-            "slug": "_7-3-更新底图",
-            "link": "#_7-3-更新底图",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "8. 可以叠加的图层",
-        "slug": "_8-可以叠加的图层",
-        "link": "#_8-可以叠加的图层",
-        "children": [
-          {
-            "level": 3,
-            "title": "8.1 可以叠加的图层",
-            "slug": "_8-1-可以叠加的图层",
-            "link": "#_8-1-可以叠加的图层",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "8.2 对图层的控制",
-            "slug": "_8-2-对图层的控制",
-            "link": "#_8-2-对图层的控制",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/mapKnow/map.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "分析功能",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. thing 的使用",
-        "slug": "_1-thing-的使用",
-        "link": "#_1-thing-的使用",
-        "children": []
-      }
-    ],
-    "path": "/mapKnow/thing.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "栅格瓦片图层",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 栅格瓦片介绍",
-        "slug": "_1-栅格瓦片介绍",
-        "link": "#_1-栅格瓦片介绍",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 为什么要出现瓦片金字塔这个概念",
-            "slug": "_1-1-为什么要出现瓦片金字塔这个概念",
-            "link": "#_1-1-为什么要出现瓦片金字塔这个概念",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.2 栅格瓦片数据来源",
-            "slug": "_1-2-栅格瓦片数据来源",
-            "link": "#_1-2-栅格瓦片数据来源",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. 图层类型清单",
-        "slug": "_2-图层类型清单",
-        "link": "#_2-图层类型清单",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. 瓦片图层的参数调试",
-        "slug": "_3-瓦片图层的参数调试",
-        "link": "#_3-瓦片图层的参数调试",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. 瓦片图层的创建及使用",
-        "slug": "_4-瓦片图层的创建及使用",
-        "link": "#_4-瓦片图层的创建及使用",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 快速开始(初始化 new Map 时传入)",
-            "slug": "_4-1-快速开始-初始化-new-map-时传入",
-            "link": "#_4-1-快速开始-初始化-new-map-时传入",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.2 代码中创建图层",
-            "slug": "_4-2-代码中创建图层",
-            "link": "#_4-2-代码中创建图层",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "5. 加载 XYZ 数据步骤",
-        "slug": "_5-加载-xyz-数据步骤",
-        "link": "#_5-加载-xyz-数据步骤",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.1 运行效果",
-        "slug": "_5-1-运行效果",
-        "link": "#_5-1-运行效果",
-        "children": []
-      }
-    ],
-    "path": "/mapKnow/tileLayer.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "版本更新日志",
     "headers": [
       {
@@ -1538,6 +1002,542 @@ export const searchIndex = [
       }
     ],
     "path": "/mapIntel/video.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "视觉控制",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. map 中视角相关设置和方法",
+        "slug": "_1-map-中视角相关设置和方法",
+        "link": "#_1-map-中视角相关设置和方法",
+        "children": []
+      }
+    ],
+    "path": "/mapKnow/camera.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "地图控件",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Leaflet 原生控件",
+        "slug": "_1-leaflet-原生控件",
+        "link": "#_1-leaflet-原生控件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 平台内置控件",
+        "slug": "_2-平台内置控件",
+        "link": "#_2-平台内置控件",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1.在 map 地图对象上操作",
+            "slug": "_2-1-在-map-地图对象上操作",
+            "link": "#_2-1-在-map-地图对象上操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2.在 layer 图层对象上操作",
+            "slug": "_2-2-在-layer-图层对象上操作",
+            "link": "#_2-2-在-layer-图层对象上操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3. 在 graphic 矢量数据对象上操作",
+            "slug": "_2-3-在-graphic-矢量数据对象上操作",
+            "link": "#_2-3-在-graphic-矢量数据对象上操作",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. 平台控件",
+        "slug": "_3-平台控件",
+        "link": "#_3-平台控件",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 控件清单",
+            "slug": "_3-1-控件清单",
+            "link": "#_3-1-控件清单",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/mapKnow/control.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "坐标系及坐标变换",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 目前常用 GIS 坐标系",
+        "slug": "_1-目前常用-gis-坐标系",
+        "link": "#_1-目前常用-gis-坐标系",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1 栅格瓦片图层坐标系的设置",
+            "slug": "_1-1-栅格瓦片图层坐标系的设置",
+            "link": "#_1-1-栅格瓦片图层坐标系的设置",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. 国内的偏移坐标系",
+        "slug": "_2-国内的偏移坐标系",
+        "link": "#_2-国内的偏移坐标系",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 栅格瓦片图层偏移坐标系的设置",
+            "slug": "_2-1-栅格瓦片图层偏移坐标系的设置",
+            "link": "#_2-1-栅格瓦片图层偏移坐标系的设置",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 矢量数据坐标的加偏或纠偏转换",
+            "slug": "_2-2-矢量数据坐标的加偏或纠偏转换",
+            "link": "#_2-2-矢量数据坐标的加偏或纠偏转换",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. 平台内的坐标及坐标变换",
+        "slug": "_3-平台内的坐标及坐标变换",
+        "link": "#_3-平台内的坐标及坐标变换",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 支持多种形式坐标参数",
+            "slug": "_3-1-支持多种形式坐标参数",
+            "link": "#_3-1-支持多种形式坐标参数",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/mapKnow/crs.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "事件机制",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 事件的相关类",
+        "slug": "_1-事件的相关类",
+        "link": "#_1-事件的相关类",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 主要类的常用事件",
+        "slug": "_2-主要类的常用事件",
+        "link": "#_2-主要类的常用事件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.1 Map 类的事件",
+        "slug": "_2-1-map-类的事件",
+        "link": "#_2-1-map-类的事件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.2 图层类的事件",
+        "slug": "_2-2-图层类的事件",
+        "link": "#_2-2-图层类的事件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.3 矢量数据类的事件",
+        "slug": "_2-3-矢量数据类的事件",
+        "link": "#_2-3-矢量数据类的事件",
+        "children": []
+      }
+    ],
+    "path": "/mapKnow/event..html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "矢量图层Graphic",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 矢量数据对象",
+        "slug": "_1-矢量数据对象",
+        "link": "#_1-矢量数据对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 矢量数据的类别",
+        "slug": "_2-矢量数据的类别",
+        "link": "#_2-矢量数据的类别",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. 矢量数据的控制",
+        "slug": "_3-矢量数据的控制",
+        "link": "#_3-矢量数据的控制",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 矢量数据的事件",
+            "slug": "_2-1-矢量数据的事件",
+            "link": "#_2-1-矢量数据的事件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 矢量数据的 Popup、Tooltip 等控件",
+            "slug": "_2-2-矢量数据的-popup、tooltip-等控件",
+            "link": "#_2-2-矢量数据的-popup、tooltip-等控件",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/mapKnow/graphic.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "矢量图层",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 图层类型清单",
+        "slug": "_1-图层类型清单",
+        "link": "#_1-图层类型清单",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 矢量图层的创建及使用",
+        "slug": "_2-矢量图层的创建及使用",
+        "link": "#_2-矢量图层的创建及使用",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 快速开始(初始化 new Map 时传入)",
+            "slug": "_2-1-快速开始-初始化-new-map-时传入",
+            "link": "#_2-1-快速开始-初始化-new-map-时传入",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 代码中创建图层",
+            "slug": "_2-2-代码中创建图层",
+            "link": "#_2-2-代码中创建图层",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3 常用矢量图层类",
+        "slug": "_3-常用矢量图层类",
+        "link": "#_3-常用矢量图层类",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 GraphicLayer",
+            "slug": "_3-1-graphiclayer",
+            "link": "#_3-1-graphiclayer",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 GeoJsonLayer",
+            "slug": "_3-2-geojsonlayer",
+            "link": "#_3-2-geojsonlayer",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.1 WFS 图层",
+            "slug": "_3-1-wfs-图层",
+            "link": "#_3-1-wfs-图层",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/mapKnow/graphicLayer.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "地图图层layer",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 图层类",
+        "slug": "_1-图层类",
+        "link": "#_1-图层类",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1. 在 config.json 构造地图时涉及到的图层",
+            "slug": "_1-1-在-config-json-构造地图时涉及到的图层",
+            "link": "#_1-1-在-config-json-构造地图时涉及到的图层",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. 常用图层介绍",
+        "slug": "_2-常用图层介绍",
+        "link": "#_2-常用图层介绍",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 栅格瓦片图层",
+            "slug": "_2-1-栅格瓦片图层",
+            "link": "#_2-1-栅格瓦片图层",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 矢量数据图层",
+            "slug": "_2-2-矢量数据图层",
+            "link": "#_2-2-矢量数据图层",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 Group 图层组说明",
+            "slug": "_2-3-group-图层组说明",
+            "link": "#_2-3-group-图层组说明",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2.2 其他可视化图层",
+        "slug": "_2-2-其他可视化图层",
+        "link": "#_2-2-其他可视化图层",
+        "children": []
+      }
+    ],
+    "path": "/mapKnow/layer.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "地图场景 Map",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 地图场景初始化",
+        "slug": "_1-地图场景初始化",
+        "link": "#_1-地图场景初始化",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. mars2d.Map 类 参数说明",
+        "slug": "_2-mars2d-map-类-参数说明",
+        "link": "#_2-mars2d-map-类-参数说明",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 使用 json 配置文件记录参数快速创建地图场景",
+            "slug": "_2-1-使用-json-配置文件记录参数快速创建地图场景",
+            "link": "#_2-1-使用-json-配置文件记录参数快速创建地图场景",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. 默认视角参数",
+        "slug": "_3-默认视角参数",
+        "link": "#_3-默认视角参数",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.控件",
+        "slug": "_4-控件",
+        "link": "#_4-控件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. 栅格瓦片底图",
+        "slug": "_5-栅格瓦片底图",
+        "link": "#_5-栅格瓦片底图",
+        "children": [
+          {
+            "level": 3,
+            "title": "7.1 底图的图层参数",
+            "slug": "_7-1-底图的图层参数",
+            "link": "#_7-1-底图的图层参数",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.2 底图的 type 图层类型",
+            "slug": "_7-2-底图的-type-图层类型",
+            "link": "#_7-2-底图的-type-图层类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.3 更新底图",
+            "slug": "_7-3-更新底图",
+            "link": "#_7-3-更新底图",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "8. 可以叠加的图层",
+        "slug": "_8-可以叠加的图层",
+        "link": "#_8-可以叠加的图层",
+        "children": [
+          {
+            "level": 3,
+            "title": "8.1 可以叠加的图层",
+            "slug": "_8-1-可以叠加的图层",
+            "link": "#_8-1-可以叠加的图层",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "8.2 对图层的控制",
+            "slug": "_8-2-对图层的控制",
+            "link": "#_8-2-对图层的控制",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/mapKnow/map.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "分析功能",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. thing 的使用",
+        "slug": "_1-thing-的使用",
+        "link": "#_1-thing-的使用",
+        "children": []
+      }
+    ],
+    "path": "/mapKnow/thing.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "栅格瓦片图层",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 栅格瓦片介绍",
+        "slug": "_1-栅格瓦片介绍",
+        "link": "#_1-栅格瓦片介绍",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1 为什么要出现瓦片金字塔这个概念",
+            "slug": "_1-1-为什么要出现瓦片金字塔这个概念",
+            "link": "#_1-1-为什么要出现瓦片金字塔这个概念",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.2 栅格瓦片数据来源",
+            "slug": "_1-2-栅格瓦片数据来源",
+            "link": "#_1-2-栅格瓦片数据来源",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. 图层类型清单",
+        "slug": "_2-图层类型清单",
+        "link": "#_2-图层类型清单",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. 瓦片图层的参数调试",
+        "slug": "_3-瓦片图层的参数调试",
+        "link": "#_3-瓦片图层的参数调试",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. 瓦片图层的创建及使用",
+        "slug": "_4-瓦片图层的创建及使用",
+        "link": "#_4-瓦片图层的创建及使用",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1 快速开始(初始化 new Map 时传入)",
+            "slug": "_4-1-快速开始-初始化-new-map-时传入",
+            "link": "#_4-1-快速开始-初始化-new-map-时传入",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2 代码中创建图层",
+            "slug": "_4-2-代码中创建图层",
+            "link": "#_4-2-代码中创建图层",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "5. 加载 XYZ 数据步骤",
+        "slug": "_5-加载-xyz-数据步骤",
+        "link": "#_5-加载-xyz-数据步骤",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.1 运行效果",
+        "slug": "_5-1-运行效果",
+        "link": "#_5-1-运行效果",
+        "children": []
+      }
+    ],
+    "path": "/mapKnow/tileLayer.html",
     "pathLocale": "/",
     "extraFields": []
   },
