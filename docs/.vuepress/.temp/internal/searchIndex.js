@@ -1672,6 +1672,13 @@ export const searchIndex = [
             "slug": "_2-2-可以选用jsdelivr的-cdn-服务",
             "link": "#_2-2-可以选用jsdelivr的-cdn-服务",
             "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 可以选用Mars2D官网的CDN服务",
+            "slug": "_2-3-可以选用mars2d官网的cdn服务",
+            "link": "#_2-3-可以选用mars2d官网的cdn服务",
+            "children": []
           }
         ]
       },
