@@ -12,8 +12,8 @@ date: 2022-09-22 15:39:13
 <img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
 <i class='text'>0</i>
 
-![开源仓库配置图][1] <br />
-
+<!-- ![开源仓库配置图][1]  -->
+<img class='mars-img' src="../public/image/logo.png"><br />
 <p align="center">🌎 一款免费的二维地图客户端开发平台</p>
 
 <p align="center">
@@ -71,4 +71,3 @@ Github：[https://github.com/marsgis/mars2d](https://github.com/marsgis/mars2d)<
 | :----------: | :-------------------------------------------------------: | :------------------------------------------------------: |
 | 部分开源插件 | [mars2d-plugin](https://github.com/marsgis/mars2d-plugin) | [mars2d-plugin](https://gitee.com/marsgis/mars2d-plugin) |
 
-[1]: ../public/image/logo.png

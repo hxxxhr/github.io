@@ -150,6 +150,8 @@ ogr2ogr -lco encoding=UTF-8 -f "GeoJSON" -t_srs "EPSG:4326" D:\\data\\exp.json D
 
 ### 6.4 在平台中加载 geojson
 
+<div style="height:410px;position:relative;" data-v-627b1480><iframe height="100%" width="100%" scrolling="yes" title="mars2d" src="http://mars2d.cn/editor-vue.html?id=layer-graphic/file/geojson&amp;full=1" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="allowfullscreen" data-v-627b1480></iframe><a class="toSee" href="http://mars2d.cn/editor-vue.html?id=layer-graphic/file/geojson&code=1" target="_blank">新窗口查看</a></div>
+
 [1]: ../public/image/data-shp.jpg
 [2]: ../public/image/data-geojson.jpg
 [3]: ../public/image/data-geojson-1.jpg

@@ -83,6 +83,7 @@ shp 一些特性：</p>
 <p>转换成功之后将.json 文件放在项目中，
 或者放在独立站点服务，可以参考<RouterLink to="/data/server.html">发布地图数据服务</RouterLink>。</p>
 <h3 id="_6-4-在平台中加载-geojson" tabindex="-1"><a class="header-anchor" href="#_6-4-在平台中加载-geojson" aria-hidden="true">#</a> 6.4 在平台中加载 geojson</h3>
+<div style="height:410px;position:relative;" data-v-627b1480><iframe height="100%" width="100%" scrolling="yes" title="mars2d" src="http://mars2d.cn/editor-vue.html?id=layer-graphic/file/geojson&amp;full=1" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="allowfullscreen" data-v-627b1480></iframe><a class="toSee" href="http://mars2d.cn/editor-vue.html?id=layer-graphic/file/geojson&code=1" target="_blank">新窗口查看</a></div>
 </div></template>
 
 

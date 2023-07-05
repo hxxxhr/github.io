@@ -13,6 +13,8 @@ map<span class="token punctuation">.</span><span class="token function">addThing
 
 <span class="token comment">//测量长度</span>
 measure<span class="token punctuation">.</span><span class="token function">distance</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_1-1-运行效果" tabindex="-1"><a class="header-anchor" href="#_1-1-运行效果" aria-hidden="true">#</a> 1.1 运行效果</h3>
+<div style="height:410px;position:relative;" data-v-627b1480><iframe height="100%" width="100%" scrolling="yes" title="mars2d" src="http://mars2d.cn/editor-vue.html?id=thing/measure&amp;full=1" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="allowfullscreen" data-v-627b1480></iframe><a class="toSee" href="http://mars2d.cn/editor-vue.html?id=thing/measure&code=1" target="_blank">新窗口查看</a></div>
+</div></template>
 
 

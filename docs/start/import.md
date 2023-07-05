@@ -65,3 +65,7 @@ Vue.prototype.mars2d = mars2d;
 var mapOptions = {}; //支持的参数请看API文档：http://mars2d.cn/api/Map.html
 var map = new mars2d.Map("mars2dContainer", mapOptions);
 ```
+
+### 运行效果
+
+<div style="height:410px;position:relative;" data-v-627b1480><iframe height="100%" width="100%" scrolling="yes" title="mars2d" src="http://mars2d.cn/editor-vue.html?id=map/create/options&amp;full=1" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="allowfullscreen" data-v-627b1480></iframe><a class="toSee" href="http://mars2d.cn/editor-vue.html?id=map/create/options&code=1" target="_blank">新窗口查看</a></div>

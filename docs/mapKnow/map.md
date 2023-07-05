@@ -86,6 +86,10 @@ function initMap(mapOptions) {
 
 `config.json`中的属性参数是与 mapOptions 参数相同。
 
+## 2.2 运行效果
+
+<div style="height:410px;position: relative;" data-v-627b1480><iframe height="100%" width="100%" scrolling="yes" title="mars2d" src="http://mars2d.cn/editor-vue.html?id=map/create/json&amp;full=1" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="allowfullscreen" data-v-627b1480></iframe> <a class="toSee" href="http://mars2d.cn/editor-vue.html?id=map/create/json&code=1" target="_blank">新窗口查看</a></div>
+
 ## 3. 默认视角参数
 
 你如果想设置进入地图页面时，自定义默认视角中心点和地图层级的话，你可以在创建地图时设置[zoom 和 center 参数](http://mars2d.cn/api/Map.html#.mapOptions)值：

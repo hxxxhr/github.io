@@ -30,6 +30,9 @@ npm install mars2d --save
 //安装mars2d插件（按需安装）
 npm install mars2d-esri --save
 ```
+<a class='text' target="_black" href="https://www.npmjs.com/package/mars2d"><img alt="Npm version" src="https://img.shields.io/npm/v/mars2d.svg?style=flat&amp;logo=npm&amp;label=NPM版本"></a>
+<a class='text' target="_black" href="https://www.npmjs.com/package/mars2d"><img alt="Npm downloads" src="https://img.shields.io/npm/dt/mars2d?label=总下载量&amp;style=flat&amp;logo=npm"></a>
+<a class='text' target="_black" href="https://www.npmjs.com/package/mars2d"><img alt="Npm下载量" src="https://img.shields.io/npm/dm/mars2d?label=月下载量&amp;style=flat&amp;logo=npm"></a>
 
 安装后在相关使用文件中引入使用即可
 

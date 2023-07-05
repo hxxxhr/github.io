@@ -23,6 +23,7 @@ var map = new mars2d.Map("mars2dContainer", {
 });
 ```
 
+
 当前 map 中与相机有关的方式：
 | 方法名 | 说明 |
 | :-----------: | :------: |
@@ -35,3 +36,7 @@ var map = new mars2d.Map("mars2dContainer", {
 | [map.flyToGraphic(graphic, options)](http://mars2d.cn/api/Map.html#flyToGraphic)| 飞行定位至 Graphic 矢量对象处|
 | [map.flyToPoint(point, options)](http://mars2d.cn/api/Map.html#flyToPoint)| 视角中心定位至目标点|
 | [map.stop()](http://mars2d.cn/api/Map.html#cancelFlight)| 停止飞行视角定位等操作 |
+
+## 3.2 运行效果
+
+<div style="height:410px;position:relative;" data-v-627b1480><iframe height="100%" width="100%" scrolling="yes" title="mars2d" src="http://mars2d.cn/editor-vue.html?id=map/options/center&amp;full=1" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="allowfullscreen" data-v-627b1480></iframe><a class="toSee" href="http://mars2d.cn/editor-vue.html?id=map/options/center&code=1" target="_blank">新窗口查看</a></div>

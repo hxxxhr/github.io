@@ -118,4 +118,8 @@ var map = new mars2d.Map("mars2dContainer", {
 
 主要提供一些与 echarts、heatmap、mapv 等其他可视化组件结合通过 canvas 绘制的一些图层。
 
+### 3 运行效果
+
+<div style="height:410px;position:relative;" data-v-627b1480><iframe height="100%" width="100%" scrolling="yes" title="mars2d" src="http://mars2d.cn/editor-vue.html?id=layer-tile/manage/layers&amp;full=1" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="allowfullscreen" data-v-627b1480></iframe><a class="toSee" href="http://mars2d.cn/editor-vue.html?id=layer-tile/manage/layers&code=1" target="_blank">新窗口查看</a></div>
+
 [1]: ../public/image/map-layer.jpg

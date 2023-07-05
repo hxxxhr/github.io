@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8daa1a0e","path":"/","title":"Mars2D 介绍","lang":"zh-CN","frontmatter":{},"headers":[],"filePathRelative":"README.md","git":{"createdTime":1688032205000,"updatedTime":1688032205000,"contributors":[{"name":"hxh","email":"1641512047@qq.com","commits":1}]}}');export{e as data};

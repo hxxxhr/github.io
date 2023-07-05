@@ -124,3 +124,4 @@ Mars2D 支持多种下载方式，可以在下一篇教程[获取 Mars2D SDK类�
 ```
 
 这样你的第一个二维地图就诞生了！
+<div style="height:410px;position:relative;" data-v-627b1480><iframe height="100%" width="100%" scrolling="yes" title="mars2d" src="http://mars2d.cn/editor-vue.html?id=map/create/options&amp;full=1" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="allowfullscreen" data-v-627b1480></iframe> <a class="toSee" href="http://mars2d.cn/editor-vue.html?id=map/create/options&code=1" target="_blank">新窗口查看</a></div>

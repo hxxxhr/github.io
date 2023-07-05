@@ -148,3 +148,7 @@ map.addControl(slider);
 | [mars2d.control.OverviewMap](http://mars2d.cn/api/OverviewMap.html) |     鹰眼地图 控件      | [查看示例](http://mars2d.cn/editor.html?id=control/basis/overviewMap) |
 
 注：本教程中所列清单可能不全，具体已功能示例和 API 为准。
+
+### 3.2 运行效果
+
+<div style="height:410px;position: relative;" data-v-627b1480><iframe height="100%" width="100%" scrolling="yes" title="mars2d" src="http://mars2d.cn/editor-vue.html?id=control/basis/display&amp;full=1" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="allowfullscreen" data-v-627b1480></iframe> <a class="toSee" href="http://mars2d.cn/editor-vue.html?id=control/basis/display&code=1" target="_blank">新窗口查看</a></div>

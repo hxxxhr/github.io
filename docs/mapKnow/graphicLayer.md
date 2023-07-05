@@ -109,6 +109,10 @@ var graphic = new mars2d.graphic.Marker({
 graphicLayer.addGraphic(graphic);
 ```
 
+运行效果
+
+<div style="height:410px;position:relative;" data-v-627b1480><iframe height="100%" width="100%" scrolling="yes" title="mars2d" src="http://mars2d.cn/editor-vue.html?id=layer-graphic/basis/graphicLayer&amp;full=1" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="allowfullscreen" data-v-627b1480></iframe><a class="toSee" href="http://mars2d.cn/editor-vue.html?id=layer-graphic/basis/graphicLayer&code=1" target="_blank">新窗口查看</a></div>
+
 ### 3.2 GeoJsonLayer
 
 GeoJSON 是适合于 Web 下对各种地理数据结构进行编码的格式，基于 Javascript 对象表示法的地理空间信息数据交换格式。与普通 json 文件格式区别在于对其属性及组成由一定规范。

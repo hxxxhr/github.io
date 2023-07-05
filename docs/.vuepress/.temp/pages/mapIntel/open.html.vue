@@ -5,7 +5,8 @@
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
 <i class='text'>0</i>
-<p><img src="@source/public/image/logo.png" alt="开源仓库配置图"> <br /></p>
+<!-- ![开源仓库配置图][1]  -->
+<p><img class='mars-img' src="@source/public/image/logo.png"><br /></p>
 <p align="center">🌎 一款免费的二维地图客户端开发平台</p>
 <p align="center">
 <a target="_black" href="https://github.com/marsgis/mars2d">

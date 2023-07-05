@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-3ae5e46c","path":"/mapKnow/thing.html","title":"分析功能","lang":"zh-CN","frontmatter":{"title":"分析功能","date":"2022-09-22T15:39:13.000Z"},"headers":[{"level":2,"title":"1. thing 的使用","slug":"_1-thing-的使用","link":"#_1-thing-的使用","children":[]}],"filePathRelative":"mapKnow/thing.md","git":{}}');export{t as data};

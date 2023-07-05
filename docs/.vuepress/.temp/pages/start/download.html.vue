@@ -19,7 +19,10 @@
 
 //安装mars2d插件（按需安装）
 <span class="token function">npm</span> <span class="token function">install</span> mars2d-esri <span class="token parameter variable">--save</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>安装后在相关使用文件中引入使用即可</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><a class='text' target="_black" href="https://www.npmjs.com/package/mars2d"><img alt="Npm version" src="https://img.shields.io/npm/v/mars2d.svg?style=flat&amp;logo=npm&amp;label=NPM版本"></a>
+<a class='text' target="_black" href="https://www.npmjs.com/package/mars2d"><img alt="Npm downloads" src="https://img.shields.io/npm/dt/mars2d?label=总下载量&amp;style=flat&amp;logo=npm"></a>
+<a class='text' target="_black" href="https://www.npmjs.com/package/mars2d"><img alt="Npm下载量" src="https://img.shields.io/npm/dm/mars2d?label=月下载量&amp;style=flat&amp;logo=npm"></a></p>
+<p>安装后在相关使用文件中引入使用即可</p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token string">"mars2d/dist/mars2d.css"</span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> <span class="token operator">*</span> <span class="token keyword">as</span> mars2d <span class="token keyword">from</span> <span class="token string">"mars2d"</span><span class="token punctuation">;</span>
 
