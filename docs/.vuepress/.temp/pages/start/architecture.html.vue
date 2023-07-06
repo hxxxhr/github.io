@@ -1,10 +1,14 @@
 <template><div><h3>整体架构及介绍</h3>
+<div class='headStyle'>
 <img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'>0</i>
+<span class='text' id="busuanzi_container_page_pv">
+  <span id="busuanzi_value_page_pv"></span>
+</span>
+</div>
 <h2 id="_1-mars2d-的组成" tabindex="-1"><a class="header-anchor" href="#_1-mars2d-的组成" aria-hidden="true">#</a> 1. Mars2D 的组成</h2>
 <p>平台主要由： SDK 类库、功能示例、项目模板 共 3 大部分组成。这些资料均免费开放，并可下载离线本地使用。</p>
 <table>

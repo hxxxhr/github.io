@@ -1,10 +1,14 @@
 <template><div><h3> 基础讲解视频 </h3>
+<div class='headStyle'>
 <img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'>0</i>
+<span class='text' id="busuanzi_container_page_pv">
+  <span id="busuanzi_value_page_pv"></span>
+</span>
+</div>
 <p>我们对一些知识也录制了讲解视频，大家可以按需浏览，建议大家都看一遍。</p>
 <h2 id="_1-基础知识篇" tabindex="-1"><a class="header-anchor" href="#_1-基础知识篇" aria-hidden="true">#</a> 1. 基础知识篇</h2>
 <table>

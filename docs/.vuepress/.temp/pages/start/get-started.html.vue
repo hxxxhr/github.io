@@ -1,10 +1,14 @@
 <template><div><h3> 快速上手 </h3>
+<div class='headStyle'>
 <img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'>0</i>
+<span class='text' id="busuanzi_container_page_pv">
+  <span id="busuanzi_value_page_pv"></span>
+</span>
+</div>
 <h2 id="获取-mars2d" tabindex="-1"><a class="header-anchor" href="#获取-mars2d" aria-hidden="true">#</a> 获取 Mars2D</h2>
 <p>Mars2D 支持多种下载方式，可以在下一篇教程<a href="http://mars2d.cn/doc.html#start/download" target="_blank" rel="noopener noreferrer">获取 Mars2D SDK类库<ExternalLinkIcon/></a>中查看所有方式。这里，我们以从 <a href="https://www.jsdelivr.com/package/npm/mars2d" target="_blank" rel="noopener noreferrer">jsDelivr<ExternalLinkIcon/></a>CDN 上获取为例，介绍如何快速安装。</p>
 <blockquote>
@@ -104,6 +108,7 @@
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>这样你的第一个二维地图就诞生了！</p>
-<div style="height:410px;position:relative;" data-v-627b1480><iframe height="100%" width="100%" scrolling="yes" title="mars2d" src="http://mars2d.cn/editor-vue.html?id=map/create/options&amp;full=1" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="allowfullscreen" data-v-627b1480></iframe> <a class="toSee" href="http://mars2d.cn/editor-vue.html?id=map/create/options&code=1" target="_blank">新窗口查看</a></div></div></template>
+<div style="height:410px;position:relative;" data-v-627b1480><iframe height="100%" width="100%" scrolling="yes" title="mars2d" src="http://mars2d.cn/editor-vue.html?id=map/create/options&amp;full=1" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="allowfullscreen" data-v-627b1480></iframe> <a class="toSee" href="http://mars2d.cn/editor-vue.html?id=map/create/options&code=1" target="_blank">新窗口查看</a></div>
+</div></template>
 
 

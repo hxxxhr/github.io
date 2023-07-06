@@ -4,19 +4,16 @@ date: 2021-01-03
 ---
 
 <h3> Mars2D 介绍 </h3>
-
+<div class='headStyle'>
 <img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="../public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'><span id="busuanzi_container_page_pv">
+<span class='text' id="busuanzi_container_page_pv">
   <span id="busuanzi_value_page_pv"></span>
-</span></i>
-
-<span id="busuanzi_container_site_pv">
-    本站总访问量<span id="busuanzi_value_site_pv"></span>次
 </span>
+</div>
 
 ## Mars2D 是什么？
 

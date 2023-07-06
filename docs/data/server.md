@@ -5,12 +5,16 @@ date: 2022-09-22 15:39:13
 
  <h3> 发布地图数据服务</h3>
 
- <img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
+<div class='headStyle'>
+<img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="../public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'>0</i>
+<span class='text' id="busuanzi_container_page_pv">
+  <span id="busuanzi_value_page_pv"></span>
+</span>
+</div>
 
 通过数据处理的流程我们大概了解了目前二维相关的影像、地形、模型都是瓦片形式的静态资源文件，如果我们需要发布为服务，只需要通过 HTTP 方式发布后，平台即可调用。
 

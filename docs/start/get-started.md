@@ -5,12 +5,16 @@ date: 2022-09-22 15:39:13
 
 <h3> 快速上手 </h3>
 
+<div class='headStyle'>
 <img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="../public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'>0</i>
+<span class='text' id="busuanzi_container_page_pv">
+  <span id="busuanzi_value_page_pv"></span>
+</span>
+</div>
  
 ## 获取 Mars2D
 Mars2D 支持多种下载方式，可以在下一篇教程[获取 Mars2D SDK类库](http://mars2d.cn/doc.html#start/download)中查看所有方式。这里，我们以从 [jsDelivr](https://www.jsdelivr.com/package/npm/mars2d)CDN 上获取为例，介绍如何快速安装。
@@ -124,4 +128,5 @@ Mars2D 支持多种下载方式，可以在下一篇教程[获取 Mars2D SDK类�
 ```
 
 这样你的第一个二维地图就诞生了！
+
 <div style="height:410px;position:relative;" data-v-627b1480><iframe height="100%" width="100%" scrolling="yes" title="mars2d" src="http://mars2d.cn/editor-vue.html?id=map/create/options&amp;full=1" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="allowfullscreen" data-v-627b1480></iframe> <a class="toSee" href="http://mars2d.cn/editor-vue.html?id=map/create/options&code=1" target="_blank">新窗口查看</a></div>

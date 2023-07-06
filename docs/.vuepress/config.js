@@ -2,7 +2,7 @@
  * @Author: hxh 1641512047@qq.com
  * @Date: 2023-05-16 16:18:26
  * @LastEditors: hxh 1641512047@qq.com
- * @LastEditTime: 2023-07-05 19:15:10
+ * @LastEditTime: 2023-07-06 18:37:14
  * @FilePath: \demo\docs\.vuepress\config.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -12,13 +12,16 @@ import { searchPlugin } from '@vuepress/plugin-search'
 import { gitPlugin } from '@vuepress/plugin-git'
 
 export default defineUserConfig({
+  head: [
+    ['script', { src: 'http://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' }],
+  ],
   base: '/doc/',
   lang: 'zh-CN',
   title: 'Mars2D开发教程',
-  description: '该文档中心用于展示 October 下所有子系统相关文档',
   theme: defaultTheme({
     lastUpdatedText: '最后更新',
     lastUpdated: 'Last Updated',
+    logo:'http://mars2d.cn/dev/img/logo.png',
     contributors: false,
     sidebar: [
       {

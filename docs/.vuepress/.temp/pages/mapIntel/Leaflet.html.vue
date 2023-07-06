@@ -1,10 +1,14 @@
 <template><div><h3> 核心依赖库 Leaflet 介绍 </h3>
+<div class='headStyle'>
 <img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'>0</i>
+<span class='text' id="busuanzi_container_page_pv">
+  <span id="busuanzi_value_page_pv"></span>
+</span>
+</div>
 <p><a href="https://leafletjs.com/" target="_blank" rel="noopener noreferrer">Leaflet<ExternalLinkIcon/></a>是一个开源的 JavaScript 库，对移动端友好且有很好的交互性。大小仅仅只有 33 KB， 同时具有大多数地图所需要的特点。 Leaflet 设计的非常简单易懂, 同时具有很好的性能和易用性。 它在桌面端和移动端都工作的相当高效，并有大量的插件用于扩张 Leaflet 的功能。</p>
 <h2 id="_1-leaflet-的作者-个人-vladimir-agafonkin" tabindex="-1"><a class="header-anchor" href="#_1-leaflet-的作者-个人-vladimir-agafonkin" aria-hidden="true">#</a> 1. Leaflet 的作者(个人)：Vladimir Agafonkin</h2>
 <p>Vladimir Agafonkin 是一名软件工程师。他创建了 Leaflet，它是交互式网络地图的第一大库，并维护了 40 多个其他开源项目，重点是算法、计算几何和性能。目前作者就职于 Mapbox 公司。</p>

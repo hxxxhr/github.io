@@ -1,10 +1,14 @@
 <template><div><h3> 矢量数据：shp转geojson格式</h3>
+<div class='headStyle'>
 <img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'>0</i>
+<span class='text' id="busuanzi_container_page_pv">
+  <span id="busuanzi_value_page_pv"></span>
+</span>
+</div>
 <h2 id="_1-shp-格式介绍" tabindex="-1"><a class="header-anchor" href="#_1-shp-格式介绍" aria-hidden="true">#</a> 1. shp 格式介绍</h2>
 <p>Shapefile 文件是 ESRI 公司 ArcGIS 平台的常用格式文件，是工业标准的矢量数据文件。 Shapefile 将空间特征表中的非拓扑几何对象和属性信息存储在数据集中，特征表中的几何对象存为以坐标点集表示的图形文件—SHP 文件，Shapefile 文件并不含拓扑（Topological）数据结构。<br />
 <img src="@source/public/image/data-shp.jpg" alt="配置图"> <br />

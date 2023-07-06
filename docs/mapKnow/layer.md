@@ -5,12 +5,16 @@ date: 2022-09-22 15:39:13
 
 <h3> 地图图层 Layer </h3>
 
+<div class='headStyle'>
 <img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="../public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'>0</i>
+<span class='text' id="busuanzi_container_page_pv">
+  <span id="busuanzi_value_page_pv"></span>
+</span>
+</div>
 
 地图内是由各种不同的图层来叠加显示，形成整个二维地图场景的。 图层是地图中很重要的概念，也是平台内很重要的组成部分。<br />
 ![配置图][1]

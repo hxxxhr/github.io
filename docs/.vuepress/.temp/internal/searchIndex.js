@@ -7,6 +7,130 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "加载外部资源的跨域问题",
+    "headers": [
+      {
+        "level": 2,
+        "title": "问题的现象",
+        "slug": "问题的现象",
+        "link": "#问题的现象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "解决方法及步骤",
+        "slug": "解决方法及步骤",
+        "link": "#解决方法及步骤",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "附：什么是资源跨域权限",
+        "slug": "附-什么是资源跨域权限",
+        "link": "#附-什么是资源跨域权限",
+        "children": [
+          {
+            "level": 3,
+            "title": "什么是 Access-Control-Allow-Origin",
+            "slug": "什么是-access-control-allow-origin",
+            "link": "#什么是-access-control-allow-origin",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "什么是资源跨域权限",
+            "slug": "什么是资源跨域权限",
+            "link": "#什么是资源跨域权限",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/issue/cors.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "其他",
+    "headers": [],
+    "path": "/issue/other.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第三方token访问有问题",
+    "headers": [
+      {
+        "level": 2,
+        "title": "问题的现象",
+        "slug": "问题的现象",
+        "link": "#问题的现象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "问题的原因",
+        "slug": "问题的原因",
+        "link": "#问题的原因",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "解决方法及步骤",
+        "slug": "解决方法及步骤",
+        "link": "#解决方法及步骤",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "1. 覆盖 mars2d.Token 中默认值",
+        "slug": "_1-覆盖-mars2d-token-中默认值",
+        "link": "#_1-覆盖-mars2d-token-中默认值",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2：批量替换修改 key 参数值",
+        "slug": "_2-批量替换修改-key-参数值",
+        "link": "#_2-批量替换修改-key-参数值",
+        "children": []
+      }
+    ],
+    "path": "/issue/token.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vue技术栈下注意事项",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 任意 Mars2D 对象放入到 store、data、computed 中后，会引起系统越用越卡。",
+        "slug": "_1-任意-mars2d-对象放入到-store、data、computed-中后-会引起系统越用越卡。",
+        "link": "#_1-任意-mars2d-对象放入到-store、data、computed-中后-会引起系统越用越卡。",
+        "children": [
+          {
+            "level": 3,
+            "title": "vue3 中可以使用 markRaw 来标识不进行双向绑定",
+            "slug": "vue3-中可以使用-markraw-来标识不进行双向绑定",
+            "link": "#vue3-中可以使用-markraw-来标识不进行双向绑定",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. 用完的对象之后要及时销毁，防止出现功能在界面上关闭但对象还驻留在内存中的情况。",
+        "slug": "_2-用完的对象之后要及时销毁-防止出现功能在界面上关闭但对象还驻留在内存中的情况。",
+        "link": "#_2-用完的对象之后要及时销毁-防止出现功能在界面上关闭但对象还驻留在内存中的情况。",
+        "children": []
+      }
+    ],
+    "path": "/issue/vue.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "矢量：shp转geojson格式",
     "headers": [
       {
@@ -882,126 +1006,288 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "加载外部资源的跨域问题",
+    "title": "整体架构及介绍",
     "headers": [
       {
         "level": 2,
-        "title": "问题的现象",
-        "slug": "问题的现象",
-        "link": "#问题的现象",
+        "title": "1. Mars2D 的组成",
+        "slug": "_1-mars2d-的组成",
+        "link": "#_1-mars2d-的组成",
         "children": []
       },
       {
         "level": 2,
-        "title": "解决方法及步骤",
-        "slug": "解决方法及步骤",
-        "link": "#解决方法及步骤",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "附：什么是资源跨域权限",
-        "slug": "附-什么是资源跨域权限",
-        "link": "#附-什么是资源跨域权限",
+        "title": "2. SDK 类库介绍",
+        "slug": "_2-sdk-类库介绍",
+        "link": "#_2-sdk-类库介绍",
         "children": [
           {
             "level": 3,
-            "title": "什么是 Access-Control-Allow-Origin",
-            "slug": "什么是-access-control-allow-origin",
-            "link": "#什么是-access-control-allow-origin",
+            "title": "3.1 SDK 主类库",
+            "slug": "_3-1-sdk-主类库",
+            "link": "#_3-1-sdk-主类库",
             "children": []
           },
           {
             "level": 3,
-            "title": "什么是资源跨域权限",
-            "slug": "什么是资源跨域权限",
-            "link": "#什么是资源跨域权限",
+            "title": "3.2 SDK 插件库（可选）",
+            "slug": "_3-2-sdk-插件库-可选",
+            "link": "#_3-2-sdk-插件库-可选",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.3 SDK 的架构",
+            "slug": "_3-3-sdk-的架构",
+            "link": "#_3-3-sdk-的架构",
             "children": []
           }
         ]
-      }
-    ],
-    "path": "/issue/cors.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "其他",
-    "headers": [],
-    "path": "/issue/other.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第三方token访问有问题",
-    "headers": [
+      },
       {
         "level": 2,
-        "title": "问题的现象",
-        "slug": "问题的现象",
-        "link": "#问题的现象",
+        "title": "3. 功能示例",
+        "slug": "_3-功能示例",
+        "link": "#_3-功能示例",
         "children": []
       },
       {
         "level": 2,
-        "title": "问题的原因",
-        "slug": "问题的原因",
-        "link": "#问题的原因",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "解决方法及步骤",
-        "slug": "解决方法及步骤",
-        "link": "#解决方法及步骤",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "1. 覆盖 mars2d.Token 中默认值",
-        "slug": "_1-覆盖-mars2d-token-中默认值",
-        "link": "#_1-覆盖-mars2d-token-中默认值",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2：批量替换修改 key 参数值",
-        "slug": "_2-批量替换修改-key-参数值",
-        "link": "#_2-批量替换修改-key-参数值",
+        "title": "4. 项目模板",
+        "slug": "_4-项目模板",
+        "link": "#_4-项目模板",
         "children": []
       }
     ],
-    "path": "/issue/token.html",
+    "path": "/start/architecture.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "vue技术栈下注意事项",
+    "title": "使用config.json 配置文件说明",
     "headers": [
       {
         "level": 2,
-        "title": "1. 任意 Mars2D 对象放入到 store、data、computed 中后，会引起系统越用越卡。",
-        "slug": "_1-任意-mars2d-对象放入到-store、data、computed-中后-会引起系统越用越卡。",
-        "link": "#_1-任意-mars2d-对象放入到-store、data、computed-中后-会引起系统越用越卡。",
+        "title": "1.参数说明",
+        "slug": "_1-参数说明",
+        "link": "#_1-参数说明",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. config.json 常见修改",
+        "slug": "_2-config-json-常见修改",
+        "link": "#_2-config-json-常见修改",
         "children": [
           {
             "level": 3,
-            "title": "vue3 中可以使用 markRaw 来标识不进行双向绑定",
-            "slug": "vue3-中可以使用-markraw-来标识不进行双向绑定",
-            "link": "#vue3-中可以使用-markraw-来标识不进行双向绑定",
+            "title": "2.1 修改默认初始视角",
+            "slug": "_2-1-修改默认初始视角",
+            "link": "#_2-1-修改默认初始视角",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 修改默认显示的底图",
+            "slug": "_2-2-修改默认显示的底图",
+            "link": "#_2-2-修改默认显示的底图",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 瓦片底图服务配置",
+            "slug": "_2-3-瓦片底图服务配置",
+            "link": "#_2-3-瓦片底图服务配置",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/start/configJson.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "获取SDK库",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.从 npm 获取",
+        "slug": "_1-从-npm-获取",
+        "link": "#_1-从-npm-获取",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 从 CDN 获取",
+        "slug": "_2-从-cdn-获取",
+        "link": "#_2-从-cdn-获取",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 可以选用 unpkg.com的 CDN 服务",
+            "slug": "_2-1-可以选用-unpkg-com的-cdn-服务",
+            "link": "#_2-1-可以选用-unpkg-com的-cdn-服务",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 可以选用jsDelivr的 CDN 服务",
+            "slug": "_2-2-可以选用jsdelivr的-cdn-服务",
+            "link": "#_2-2-可以选用jsdelivr的-cdn-服务",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 可以选用Mars2D官网的CDN服务",
+            "slug": "_2-3-可以选用mars2d官网的cdn服务",
+            "link": "#_2-3-可以选用mars2d官网的cdn服务",
             "children": []
           }
         ]
       },
       {
         "level": 2,
-        "title": "2. 用完的对象之后要及时销毁，防止出现功能在界面上关闭但对象还驻留在内存中的情况。",
-        "slug": "_2-用完的对象之后要及时销毁-防止出现功能在界面上关闭但对象还驻留在内存中的情况。",
-        "link": "#_2-用完的对象之后要及时销毁-防止出现功能在界面上关闭但对象还驻留在内存中的情况。",
+        "title": "3. 从 Mars2D 官网 下载获取",
+        "slug": "_3-从-mars2d-官网-下载获取",
+        "link": "#_3-从-mars2d-官网-下载获取",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 类似 CDN 的 head 静态资源方式引入",
+            "slug": "_3-1-类似-cdn-的-head-静态资源方式引入",
+            "link": "#_3-1-类似-cdn-的-head-静态资源方式引入",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 类似 npm 的 import 方式导入",
+            "slug": "_3-2-类似-npm-的-import-方式导入",
+            "link": "#_3-2-类似-npm-的-import-方式导入",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/start/download.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "功能示例 使用介绍",
+    "headers": [
+      {
+        "level": 2,
+        "title": "说明",
+        "slug": "说明",
+        "link": "#说明",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "选择技术栈",
+        "slug": "选择技术栈",
+        "link": "#选择技术栈",
         "children": []
       }
     ],
-    "path": "/issue/vue.html",
+    "path": "/start/example.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "快速上手",
+    "headers": [
+      {
+        "level": 2,
+        "title": "获取 Mars2D",
+        "slug": "获取-mars2d",
+        "link": "#获取-mars2d",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "引入 Mars2D",
+        "slug": "引入-mars2d",
+        "link": "#引入-mars2d",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "绘制一个简单的二维地图",
+        "slug": "绘制一个简单的二维地图",
+        "link": "#绘制一个简单的二维地图",
+        "children": []
+      }
+    ],
+    "path": "/start/get-started.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "在已有项目中集成Mars2D",
+    "headers": [
+      {
+        "level": 2,
+        "title": "方式 1：head 静态资源方式引入",
+        "slug": "方式-1-head-静态资源方式引入",
+        "link": "#方式-1-head-静态资源方式引入",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "方式 2： import 方式导入",
+        "slug": "方式-2-import-方式导入",
+        "link": "#方式-2-import-方式导入",
+        "children": [
+          {
+            "level": 3,
+            "title": "2. 新建 div 容器",
+            "slug": "_2-新建-div-容器",
+            "link": "#_2-新建-div-容器",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. 使用 mars2d.Map 方法创建地图",
+        "slug": "_3-使用-mars2d-map-方法创建地图",
+        "link": "#_3-使用-mars2d-map-方法创建地图",
+        "children": [
+          {
+            "level": 3,
+            "title": "运行效果",
+            "slug": "运行效果",
+            "link": "#运行效果",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/start/import.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "基础项目 使用介绍",
+    "headers": [
+      {
+        "level": 2,
+        "title": "说明",
+        "slug": "说明",
+        "link": "#说明",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "选择技术栈",
+        "slug": "选择技术栈",
+        "link": "#选择技术栈",
+        "children": []
+      }
+    ],
+    "path": "/start/jcxm.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1575,292 +1861,6 @@ export const searchIndex = [
       }
     ],
     "path": "/mapKnow/tileLayer.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "整体架构及介绍",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Mars2D 的组成",
-        "slug": "_1-mars2d-的组成",
-        "link": "#_1-mars2d-的组成",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. SDK 类库介绍",
-        "slug": "_2-sdk-类库介绍",
-        "link": "#_2-sdk-类库介绍",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 SDK 主类库",
-            "slug": "_3-1-sdk-主类库",
-            "link": "#_3-1-sdk-主类库",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 SDK 插件库（可选）",
-            "slug": "_3-2-sdk-插件库-可选",
-            "link": "#_3-2-sdk-插件库-可选",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.3 SDK 的架构",
-            "slug": "_3-3-sdk-的架构",
-            "link": "#_3-3-sdk-的架构",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3. 功能示例",
-        "slug": "_3-功能示例",
-        "link": "#_3-功能示例",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. 项目模板",
-        "slug": "_4-项目模板",
-        "link": "#_4-项目模板",
-        "children": []
-      }
-    ],
-    "path": "/start/architecture.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "使用config.json 配置文件说明",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.参数说明",
-        "slug": "_1-参数说明",
-        "link": "#_1-参数说明",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. config.json 常见修改",
-        "slug": "_2-config-json-常见修改",
-        "link": "#_2-config-json-常见修改",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 修改默认初始视角",
-            "slug": "_2-1-修改默认初始视角",
-            "link": "#_2-1-修改默认初始视角",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 修改默认显示的底图",
-            "slug": "_2-2-修改默认显示的底图",
-            "link": "#_2-2-修改默认显示的底图",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3 瓦片底图服务配置",
-            "slug": "_2-3-瓦片底图服务配置",
-            "link": "#_2-3-瓦片底图服务配置",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/start/configJson.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "获取SDK库",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.从 npm 获取",
-        "slug": "_1-从-npm-获取",
-        "link": "#_1-从-npm-获取",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 从 CDN 获取",
-        "slug": "_2-从-cdn-获取",
-        "link": "#_2-从-cdn-获取",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 可以选用 unpkg.com的 CDN 服务",
-            "slug": "_2-1-可以选用-unpkg-com的-cdn-服务",
-            "link": "#_2-1-可以选用-unpkg-com的-cdn-服务",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 可以选用jsDelivr的 CDN 服务",
-            "slug": "_2-2-可以选用jsdelivr的-cdn-服务",
-            "link": "#_2-2-可以选用jsdelivr的-cdn-服务",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3 可以选用Mars2D官网的CDN服务",
-            "slug": "_2-3-可以选用mars2d官网的cdn服务",
-            "link": "#_2-3-可以选用mars2d官网的cdn服务",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3. 从 Mars2D 官网 下载获取",
-        "slug": "_3-从-mars2d-官网-下载获取",
-        "link": "#_3-从-mars2d-官网-下载获取",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 类似 CDN 的 head 静态资源方式引入",
-            "slug": "_3-1-类似-cdn-的-head-静态资源方式引入",
-            "link": "#_3-1-类似-cdn-的-head-静态资源方式引入",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 类似 npm 的 import 方式导入",
-            "slug": "_3-2-类似-npm-的-import-方式导入",
-            "link": "#_3-2-类似-npm-的-import-方式导入",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/start/download.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "功能示例 使用介绍",
-    "headers": [
-      {
-        "level": 2,
-        "title": "说明",
-        "slug": "说明",
-        "link": "#说明",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "选择技术栈",
-        "slug": "选择技术栈",
-        "link": "#选择技术栈",
-        "children": []
-      }
-    ],
-    "path": "/start/example.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "快速上手",
-    "headers": [
-      {
-        "level": 2,
-        "title": "获取 Mars2D",
-        "slug": "获取-mars2d",
-        "link": "#获取-mars2d",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "引入 Mars2D",
-        "slug": "引入-mars2d",
-        "link": "#引入-mars2d",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "绘制一个简单的二维地图",
-        "slug": "绘制一个简单的二维地图",
-        "link": "#绘制一个简单的二维地图",
-        "children": []
-      }
-    ],
-    "path": "/start/get-started.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "在已有项目中集成Mars2D",
-    "headers": [
-      {
-        "level": 2,
-        "title": "方式 1：head 静态资源方式引入",
-        "slug": "方式-1-head-静态资源方式引入",
-        "link": "#方式-1-head-静态资源方式引入",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "方式 2： import 方式导入",
-        "slug": "方式-2-import-方式导入",
-        "link": "#方式-2-import-方式导入",
-        "children": [
-          {
-            "level": 3,
-            "title": "2. 新建 div 容器",
-            "slug": "_2-新建-div-容器",
-            "link": "#_2-新建-div-容器",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3. 使用 mars2d.Map 方法创建地图",
-        "slug": "_3-使用-mars2d-map-方法创建地图",
-        "link": "#_3-使用-mars2d-map-方法创建地图",
-        "children": [
-          {
-            "level": 3,
-            "title": "运行效果",
-            "slug": "运行效果",
-            "link": "#运行效果",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/start/import.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "基础项目 使用介绍",
-    "headers": [
-      {
-        "level": 2,
-        "title": "说明",
-        "slug": "说明",
-        "link": "#说明",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "选择技术栈",
-        "slug": "选择技术栈",
-        "link": "#选择技术栈",
-        "children": []
-      }
-    ],
-    "path": "/start/jcxm.html",
     "pathLocale": "/",
     "extraFields": []
   },

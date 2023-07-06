@@ -1,10 +1,14 @@
 <template><div><h3> 栅格瓦片图层 </h3>
+<div class='headStyle'>
 <img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'>0</i>
+<span class='text' id="busuanzi_container_page_pv">
+  <span id="busuanzi_value_page_pv"></span>
+</span>
+</div>
 <p>前面我们说到地形是地图场景的&quot;骨骼&quot;，栅格瓦片图层就是我们浏览二维能感知的&quot;皮肤&quot;了，通常我们叠加的是各种卫星影像或瓦片数据。<br />
 <img src="@source/public/image/map-tileLayer.jpg" alt="配置图"> <br />
 Mars2D 支持多种服务来源的高精度影像地图数据的加载和渲染。图层支持排序和透明混合，支持设置影像图层相关属性，比如透明度等。</p>

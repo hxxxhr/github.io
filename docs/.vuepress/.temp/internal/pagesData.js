@@ -1,6 +1,14 @@
 export const pagesData = {
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
+  // path: /issue/cors.html
+  "v-212ce37d": () => import(/* webpackChunkName: "v-212ce37d" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/issue/cors.html.js").then(({ data }) => data),
+  // path: /issue/other.html
+  "v-4ab23890": () => import(/* webpackChunkName: "v-4ab23890" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/issue/other.html.js").then(({ data }) => data),
+  // path: /issue/token.html
+  "v-28dfdb22": () => import(/* webpackChunkName: "v-28dfdb22" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/issue/token.html.js").then(({ data }) => data),
+  // path: /issue/vue.html
+  "v-4b663a7c": () => import(/* webpackChunkName: "v-4b663a7c" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/issue/vue.html.js").then(({ data }) => data),
   // path: /data/geojson.html
   "v-2a2b052c": () => import(/* webpackChunkName: "v-2a2b052c" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/data/geojson.html.js").then(({ data }) => data),
   // path: /data/server.html
@@ -27,14 +35,20 @@ export const pagesData = {
   "v-0ead8fb4": () => import(/* webpackChunkName: "v-0ead8fb4" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/mapIntel/support.html.js").then(({ data }) => data),
   // path: /mapIntel/video.html
   "v-05a1edfa": () => import(/* webpackChunkName: "v-05a1edfa" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/mapIntel/video.html.js").then(({ data }) => data),
-  // path: /issue/cors.html
-  "v-212ce37d": () => import(/* webpackChunkName: "v-212ce37d" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/issue/cors.html.js").then(({ data }) => data),
-  // path: /issue/other.html
-  "v-4ab23890": () => import(/* webpackChunkName: "v-4ab23890" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/issue/other.html.js").then(({ data }) => data),
-  // path: /issue/token.html
-  "v-28dfdb22": () => import(/* webpackChunkName: "v-28dfdb22" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/issue/token.html.js").then(({ data }) => data),
-  // path: /issue/vue.html
-  "v-4b663a7c": () => import(/* webpackChunkName: "v-4b663a7c" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/issue/vue.html.js").then(({ data }) => data),
+  // path: /start/architecture.html
+  "v-c495a840": () => import(/* webpackChunkName: "v-c495a840" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/start/architecture.html.js").then(({ data }) => data),
+  // path: /start/configJson.html
+  "v-c2eeca6e": () => import(/* webpackChunkName: "v-c2eeca6e" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/start/configJson.html.js").then(({ data }) => data),
+  // path: /start/download.html
+  "v-7a235a6a": () => import(/* webpackChunkName: "v-7a235a6a" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/start/download.html.js").then(({ data }) => data),
+  // path: /start/example.html
+  "v-0ecd24f5": () => import(/* webpackChunkName: "v-0ecd24f5" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/start/example.html.js").then(({ data }) => data),
+  // path: /start/get-started.html
+  "v-25656a55": () => import(/* webpackChunkName: "v-25656a55" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/start/get-started.html.js").then(({ data }) => data),
+  // path: /start/import.html
+  "v-7ede284e": () => import(/* webpackChunkName: "v-7ede284e" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/start/import.html.js").then(({ data }) => data),
+  // path: /start/jcxm.html
+  "v-759db3b6": () => import(/* webpackChunkName: "v-759db3b6" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/start/jcxm.html.js").then(({ data }) => data),
   // path: /mapKnow/camera.html
   "v-56fe3d9a": () => import(/* webpackChunkName: "v-56fe3d9a" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/mapKnow/camera.html.js").then(({ data }) => data),
   // path: /mapKnow/control.html
@@ -55,20 +69,6 @@ export const pagesData = {
   "v-3ae5e46c": () => import(/* webpackChunkName: "v-3ae5e46c" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/mapKnow/thing.html.js").then(({ data }) => data),
   // path: /mapKnow/tileLayer.html
   "v-347cbeb7": () => import(/* webpackChunkName: "v-347cbeb7" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/mapKnow/tileLayer.html.js").then(({ data }) => data),
-  // path: /start/architecture.html
-  "v-c495a840": () => import(/* webpackChunkName: "v-c495a840" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/start/architecture.html.js").then(({ data }) => data),
-  // path: /start/configJson.html
-  "v-c2eeca6e": () => import(/* webpackChunkName: "v-c2eeca6e" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/start/configJson.html.js").then(({ data }) => data),
-  // path: /start/download.html
-  "v-7a235a6a": () => import(/* webpackChunkName: "v-7a235a6a" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/start/download.html.js").then(({ data }) => data),
-  // path: /start/example.html
-  "v-0ecd24f5": () => import(/* webpackChunkName: "v-0ecd24f5" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/start/example.html.js").then(({ data }) => data),
-  // path: /start/get-started.html
-  "v-25656a55": () => import(/* webpackChunkName: "v-25656a55" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/start/get-started.html.js").then(({ data }) => data),
-  // path: /start/import.html
-  "v-7ede284e": () => import(/* webpackChunkName: "v-7ede284e" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/start/import.html.js").then(({ data }) => data),
-  // path: /start/jcxm.html
-  "v-759db3b6": () => import(/* webpackChunkName: "v-759db3b6" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/start/jcxm.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"D:/VueProject/github.io/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
 }

@@ -5,12 +5,16 @@ date: 2022-09-22 15:39:13
 
 <h3> 地图控件 </h3>
 
+<div class='headStyle'>
 <img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="../public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'>0</i>
+<span class='text' id="busuanzi_container_page_pv">
+  <span id="busuanzi_value_page_pv"></span>
+</span>
+</div>
 
 地图控件是指一些 DOM 面板或按钮，并与地图有所交互的对象，目前包含 2 大类，第一种是 Leaflet 原生具备的控件，第 2 类是 Mars2D 编写的控件。
 

@@ -14,6 +14,12 @@
 
 .text{
     margin-left: 5px;
+    color:#7F7FA8;
+    font-size: 15px;
+    display: block !important;
+}
+#busuanzi_container_page_pv{
+    display: block !important;
 }
 .images{
     margin-bottom: -3px;
@@ -30,6 +36,7 @@
 }
 .sidebar-item.sidebar-heading{
     font-size: 1em !important;
+    padding: 0.95rem 1.5rem 0.85rem 1.35rem;
 }
 .sidebar-item.active:not(p.sidebar-heading){
     font-size: 15px;
@@ -42,9 +49,12 @@ h1,h2,h3,h4,h5,h6{
     line-height: 1.25;
 }
 h2{
+    font-size: 1.4rem;
     border-bottom: 0px;
+    margin-top: -2rem !important;
 }
 h3{
+    font-size: 1.34rem;
     margin-bottom: 25px !important;
 }
 .page .theme-default-content{
@@ -85,4 +95,7 @@ h3{
 .suggestions{
     width: 500px;
     background-color: #ffffff !important;
+}
+.headStyle{
+    display: flex;
 }

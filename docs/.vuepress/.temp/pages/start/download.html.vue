@@ -1,10 +1,14 @@
 <template><div><h3> 获取 Mars2D SDK类库 </h3>
+<div class='headStyle'>
 <img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'>0</i>
+<span class='text' id="busuanzi_container_page_pv">
+  <span id="busuanzi_value_page_pv"></span>
+</span>
+</div>
 <p>Mars2D 提供了多种获取 SDK 类库的方式，你可以根据项目的实际情况和技术栈选择以下任意一种方式安装。</p>
 <ul>
 <li>从 npm 安装</li>

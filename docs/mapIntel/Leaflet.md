@@ -5,12 +5,16 @@ date: 2022-09-22 15:39:13
 
 <h3> 核心依赖库 Leaflet 介绍 </h3>
 
+<div class='headStyle'>
 <img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="../public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'>0</i>
+<span class='text' id="busuanzi_container_page_pv">
+  <span id="busuanzi_value_page_pv"></span>
+</span>
+</div>
 
 [Leaflet](https://leafletjs.com/)是一个开源的 JavaScript 库，对移动端友好且有很好的交互性。大小仅仅只有 33 KB， 同时具有大多数地图所需要的特点。 Leaflet 设计的非常简单易懂, 同时具有很好的性能和易用性。 它在桌面端和移动端都工作的相当高效，并有大量的插件用于扩张 Leaflet 的功能。
 

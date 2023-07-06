@@ -1,10 +1,14 @@
 <template><div><h3> 加载外部资源的跨域问题 </h3>
+<div class='headStyle'>
 <img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'>0</i>
+<span class='text' id="busuanzi_container_page_pv">
+  <span id="busuanzi_value_page_pv"></span>
+</span>
+</div>
 <h2 id="问题的现象" tabindex="-1"><a class="header-anchor" href="#问题的现象" aria-hidden="true">#</a> 问题的现象</h2>
 <p>浏览器提示 CORS policy 错误，所加载的底图、地形、模型等外部数据没有显示。F12 中提示 CORS 相关错误。</p>
 <h2 id="解决方法及步骤" tabindex="-1"><a class="header-anchor" href="#解决方法及步骤" aria-hidden="true">#</a> 解决方法及步骤</h2>

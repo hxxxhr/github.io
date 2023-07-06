@@ -1,10 +1,14 @@
 <template><div><h3> 交流社区 及 寻求帮助</h3>
+<div class='headStyle'>
 <img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'>0</i>
+<span class='text' id="busuanzi_container_page_pv">
+  <span id="busuanzi_value_page_pv"></span>
+</span>
+</div>
 <h2 id="交流社区" tabindex="-1"><a class="header-anchor" href="#交流社区" aria-hidden="true">#</a> 交流社区</h2>
 <h3 id="_1-微信技术交流群" tabindex="-1"><a class="header-anchor" href="#_1-微信技术交流群" aria-hidden="true">#</a> 1.微信技术交流群</h3>
 <p>微信沟通是最快捷高效的方式，大家可以加我们<a href="http://mars2d.cn/community.html" target="_blank" rel="noopener noreferrer">技术交流群<ExternalLinkIcon/></a>进行直接沟通交流。<br/>

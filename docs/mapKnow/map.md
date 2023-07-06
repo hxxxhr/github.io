@@ -5,12 +5,16 @@ date: 2022-09-22 15:39:13
 
 <h3> 地图场景 Map </h3>
 
+<div class='headStyle'>
 <img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="../public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'>0</i>
+<span class='text' id="busuanzi_container_page_pv">
+  <span id="busuanzi_value_page_pv"></span>
+</span>
+</div>
 
 我们使用 DIV 渲染后看到的二维地图对象，我们统称为地图场景，在 Mars2D 中对应是[mars2d.Map 类](http://mars2d.cn/api/Map.html)，这是一切的开始，所有相关控制的起点。掌握学习好了 mars2d.Map 类 基本也就掌握好了 Mars2D。
 

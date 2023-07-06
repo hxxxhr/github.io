@@ -1,10 +1,14 @@
 <template><div><h3> 其他常见问题</h3>
+<div class='headStyle'>
 <img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'>0</i>
+<span class='text' id="busuanzi_container_page_pv">
+  <span id="busuanzi_value_page_pv"></span>
+</span>
+</div>
 <p><strong> 整理了一些放在第3方博客网站:</strong></p>
 <ul>
 <li><a href="https://www.yuque.com/yizhangxiatian/wl3uib" target="_blank" rel="noopener noreferrer">语雀-Mars2D常见问题汇总<ExternalLinkIcon/></a></li>

@@ -5,12 +5,16 @@ date: 2022-09-22 15:39:13
 
 <h3> vue技术栈下开发注意事项 </h3>
 
+<div class='headStyle'>
 <img class='images' src="../public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="../public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="../public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'>0</i>
+<span class='text' id="busuanzi_container_page_pv">
+  <span id="busuanzi_value_page_pv"></span>
+</span>
+</div>
 
 在基于 vue 框架+Mars2D 产品做二维应用开发的项目中，比较常见的问题是性能卡顿。经过排查，发现普遍是由以下问题引起的，现总结出引起相关问题的原因及解决办法，以供参考：<br />
 

@@ -1,10 +1,14 @@
 <template><div><h3>瓦片底图：TIF影像金字塔切片处理及加载</h3>
+<div class='headStyle'>
 <img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'>0</i>
+<span class='text' id="busuanzi_container_page_pv">
+  <span id="busuanzi_value_page_pv"></span>
+</span>
+</div>
 <h2 id="_1-tif-格式介绍" tabindex="-1"><a class="header-anchor" href="#_1-tif-格式介绍" aria-hidden="true">#</a> 1. tif 格式介绍</h2>
 <p>TIF 文件为栅格图像文件，后缀为 tif 或 tiff，是 ogc 规范的一种，全称 GeoTiff。通常不能在资源管理器中查看 tif 栅格影像数据的坐标系信息，需要用 GIS 软件查看，因为它的坐标系信息写在数据文件内部。<br /></p>
 <p>tif 可以有 8 位，24 位等深度，一般真彩色是 24 位，而地形数据只有一个高度值，采用 8 位。目前很多卫星影像数据、地形数据的存储格式都是 tif。<br />

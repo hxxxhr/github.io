@@ -1,10 +1,14 @@
 <template><div><h3> 在已有项目中集成Mars2D </h3>
+<div class='headStyle'>
 <img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'>0</i>
+<span class='text' id="busuanzi_container_page_pv">
+  <span id="busuanzi_value_page_pv"></span>
+</span>
+</div>
 <p>在阅读本节前，建议您已阅读：</p>
 <ul>
 <li><RouterLink to="/start/download.html">获取 Mars2D SDK 类库</RouterLink> ：了解 sdk 的不同下载及安装方式</li>

@@ -1,10 +1,14 @@
 <template><div><h3> 地图场景 Map </h3>
+<div class='headStyle'>
 <img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'>0</i>
+<span class='text' id="busuanzi_container_page_pv">
+  <span id="busuanzi_value_page_pv"></span>
+</span>
+</div>
 <p>我们使用 DIV 渲染后看到的二维地图对象，我们统称为地图场景，在 Mars2D 中对应是<a href="http://mars2d.cn/api/Map.html" target="_blank" rel="noopener noreferrer">mars2d.Map 类<ExternalLinkIcon/></a>，这是一切的开始，所有相关控制的起点。掌握学习好了 mars2d.Map 类 基本也就掌握好了 Mars2D。</p>
 <h2 id="_1-地图场景初始化" tabindex="-1"><a class="header-anchor" href="#_1-地图场景初始化" aria-hidden="true">#</a> 1. 地图场景初始化</h2>
 <p>在使用 mars2d 时你可以根据需要对默认参数进行配置，如果你只是想得到默认的效果，你仅需要写下面一行代码即可：</p>

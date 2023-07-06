@@ -1,10 +1,14 @@
 <template><div><h3> 开源仓库清单 </h3>
+<div class='headStyle'>
 <img class='images' src="@source/public/icon/yonghu.svg" alt="来自依赖包的图片">
 <i class='text'>Mars2D</i>
 <img class='imagess' src="@source/public/icon/shijian.svg" alt="来自依赖包的图片">
 <i class='text'>30/6/2023</i>
 <img class='imagess' src="@source/public/icon/liulan.svg" alt="来自依赖包的图片">
-<i class='text'>0</i>
+<span class='text' id="busuanzi_container_page_pv">
+  <span id="busuanzi_value_page_pv"></span>
+</span>
+</div>
 <!-- ![开源仓库配置图][1]  -->
 <p><img class='mars-img' src="@source/public/image/logo.png"><br /></p>
 <p align="center">🌎 一款免费的二维地图客户端开发平台</p>
